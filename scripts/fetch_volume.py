@@ -35,6 +35,7 @@ HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(HERE, "data")
 
 GAME_SERIES_PREFIX = ("KXNBAGAME", "KXNBASERIES")
+CUT_HOURS = 3          # 赛前量口径：close_time 前 3 小时
 MAX_PAGES_PER_SERIES = 6
 MAX_POLY_PAGES = 10
 WINDOW_DAYS = 30
@@ -228,6 +229,71 @@ def backfill(days):
             print("%s sample:" % label, json.dumps(arr[0], ensure_ascii=False)[:280])
 
 
+def _candle_sum(ticker, series, cut_ts, hours=10):
+    """赛前累计成交量：cut 之前 hours 小时内的 1 分钟 K 线成交量求和。"""
+    url = ("%s/series/%s/markets/%s/candlesticks?start_ts=%d&end_ts=%d&period_interval=1"
+           % (KALSHI, series, ticker, cut_ts - hours * 3600, cut_ts))
+    d = get_json(url)
+    cs = d.get("candlesticks") or []
+    return sum(float(c.get("volume_fp") or 0) for c in cs), len(cs)
+
+
+def pregame(days):
+    """用 1 分钟 K 线还原每场赛前累计成交量，避开结算后成交量。"""
+    series = nba_series()
+    games, n_mkt = {}, 0
+    for s in series:
+        for a, b in _windows(days):
+            cursor, pages = "", 0
+            while pages < MAX_PAGES_PER_SERIES:
+                q = {"status": "settled", "limit": 200, "series_ticker": s,
+                     "min_close_ts": int(a.timestamp()), "max_close_ts": int(b.timestamp())}
+                if cursor:
+                    q["cursor"] = cursor
+                try:
+                    d = get_json(KALSHI + "/markets?" + urllib.parse.urlencode(q))
+                except Exception as ex:
+                    print("  ! %s 列表失败 %s" % (s, type(ex).__name__))
+                    break
+                batch = d.get("markets") or []
+                for m in batch:
+                    tk, ev, ct = m.get("ticker"), m.get("event_ticker"), m.get("close_time")
+                    if not (tk and ev and ct) or not is_game_market({"src": "kalshi", "id": tk}):
+                        continue
+                    try:
+                        close_ts = int(datetime.fromisoformat(ct.replace("Z", "+00:00")).timestamp())
+                    except ValueError:
+                        continue
+                    cut = close_ts - CUT_HOURS * 3600
+                    try:
+                        pv, nc = _candle_sum(tk, s, cut)
+                    except Exception as ex:
+                        print("  ! %s K线失败 %s" % (tk, type(ex).__name__))
+                        continue
+                    g = games.setdefault(ev, {"event": ev, "close": ct, "pregame_volume": 0.0,
+                                              "total_volume": 0.0, "n_markets": 0, "candles": 0})
+                    g["pregame_volume"] += pv
+                    g["total_volume"] += float(m.get("volume_fp") or 0)
+                    g["n_markets"] += 1
+                    g["candles"] += nc
+                    n_mkt += 1
+                    time.sleep(0.05)
+                pages += 1
+                cursor = d.get("cursor") or ""
+                if not cursor or not batch:
+                    break
+    out = sorted(games.values(), key=lambda x: x["event"])
+    os.makedirs(OUT_DIR, exist_ok=True)
+    with open(os.path.join(OUT_DIR, "pregame.json"), "w", encoding="utf-8") as f:
+        json.dump({"ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                   "meta": {"days": days, "cut_hours": CUT_HOURS, "markets": n_mkt,
+                            "games": len(out)}, "games": out}, f, ensure_ascii=False, indent=1)
+    print("[pregame] %d 天 | %d 个市场 | %d 场 | 口径 close-%dh"
+          % (days, n_mkt, len(out), CUT_HOURS))
+    for g in out[-3:]:
+        print("  ", json.dumps(g, ensure_ascii=False)[:200])
+
+
 def self_test():
     k = {"ticker": "KXNBAGAME-26NOV10LACPHX-PHX", "event_ticker": "KXNBAGAME-26NOV10LACPHX",
          "title": "Will Phoenix win?", "volume_fp": "1234.50", "open_interest_fp": "321.00"}
@@ -247,6 +313,11 @@ def self_test():
 if __name__ == "__main__":
     if "--self-test" in sys.argv:
         self_test()
+    elif "--pregame" in sys.argv:
+        days = 60
+        if "--days" in sys.argv:
+            days = int(sys.argv[sys.argv.index("--days") + 1])
+        pregame(days)
     elif "--backfill" in sys.argv:
         days = 60
         if "--days" in sys.argv:
