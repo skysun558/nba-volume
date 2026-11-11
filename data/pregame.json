@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T12:02:11Z",
+ "ts": "2026-11-11T12:26:14Z",
  "meta": {
   "days": 60,
   "cut_hours": 3,
@@ -12,7 +12,17 @@
    "pregame_volume": 139520.78999999998,
    "total_volume": 4930363.16,
    "n_markets": 2,
-   "candles": 917
+   "candles": 917,
+   "sides": {
+    "IND": {
+     "price": 0.59,
+     "volume": 50580.19999999995
+    },
+    "BKN": {
+     "price": 0.41,
+     "volume": 88940.59000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV01BOSORL",
@@ -20,7 +30,17 @@
    "pregame_volume": 330434.5399999999,
    "total_volume": 4703852.15,
    "n_markets": 2,
-   "candles": 1110
+   "candles": 1110,
+   "sides": {
+    "ORL": {
+     "price": 0.29,
+     "volume": 90298.53999999995
+    },
+    "BOS": {
+     "price": 0.72,
+     "volume": 240135.99999999994
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV01LACGSW",
@@ -28,7 +48,17 @@
    "pregame_volume": 776664.2900000003,
    "total_volume": 7283923.91,
    "n_markets": 2,
-   "candles": 1125
+   "candles": 1125,
+   "sides": {
+    "LAC": {
+     "price": 0.47,
+     "volume": 307502.05000000016
+    },
+    "GSW": {
+     "price": 0.55,
+     "volume": 469162.2400000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV01TORLAL",
@@ -36,7 +66,17 @@
    "pregame_volume": 868125.9600000001,
    "total_volume": 8068174.77,
    "n_markets": 2,
-   "candles": 1168
+   "candles": 1168,
+   "sides": {
+    "TOR": {
+     "price": 0.41,
+     "volume": 148102.44999999998
+    },
+    "LAL": {
+     "price": 0.6,
+     "volume": 720023.5100000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02ATLIND",
@@ -44,7 +84,17 @@
    "pregame_volume": 656097.6999999996,
    "total_volume": 3653086.76,
    "n_markets": 2,
-   "candles": 1073
+   "candles": 1073,
+   "sides": {
+    "IND": {
+     "price": 0.23,
+     "volume": 443444.7799999996
+    },
+    "ATL": {
+     "price": 0.78,
+     "volume": 212652.91999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02BKNNYK",
@@ -52,7 +102,17 @@
    "pregame_volume": 302055.2400000001,
    "total_volume": 3670571.99,
    "n_markets": 2,
-   "candles": 1069
+   "candles": 1069,
+   "sides": {
+    "NYK": {
+     "price": 0.89,
+     "volume": 31241.25
+    },
+    "BKN": {
+     "price": 0.12,
+     "volume": 270813.9900000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02BOSHOU",
@@ -60,7 +120,17 @@
    "pregame_volume": 611110.2000000004,
    "total_volume": 4128326.9,
    "n_markets": 2,
-   "candles": 1101
+   "candles": 1101,
+   "sides": {
+    "HOU": {
+     "price": 0.63,
+     "volume": 404690.36000000004
+    },
+    "BOS": {
+     "price": 0.38,
+     "volume": 206419.84000000032
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02CHIPHI",
@@ -68,7 +138,17 @@
    "pregame_volume": 405462.50000000006,
    "total_volume": 3139335.7,
    "n_markets": 2,
-   "candles": 1144
+   "candles": 1144,
+   "sides": {
+    "PHI": {
+     "price": 0.83,
+     "volume": 248923.48000000004
+    },
+    "CHI": {
+     "price": 0.18,
+     "volume": 156539.02000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02DETCHA",
@@ -76,7 +156,17 @@
    "pregame_volume": 424569.7600000002,
    "total_volume": 1569823.22,
    "n_markets": 2,
-   "candles": 984
+   "candles": 984,
+   "sides": {
+    "DET": {
+     "price": 0.68,
+     "volume": 118107.16000000008
+    },
+    "CHA": {
+     "price": 0.33,
+     "volume": 306462.6000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02MIALAL",
@@ -84,7 +174,17 @@
    "pregame_volume": 277219.5600000001,
    "total_volume": 7106922.2,
    "n_markets": 2,
-   "candles": 1132
+   "candles": 1132,
+   "sides": {
+    "MIA": {
+     "price": 0.45,
+     "volume": 128723.94999999994
+    },
+    "LAL": {
+     "price": 0.57,
+     "volume": 148495.6100000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02MILMIN",
@@ -92,7 +192,17 @@
    "pregame_volume": 420884.0599999993,
    "total_volume": 2087575.1800000002,
    "n_markets": 2,
-   "candles": 942
+   "candles": 942,
+   "sides": {
+    "MIN": {
+     "price": 0.79,
+     "volume": 22966.019999999982
+    },
+    "MIL": {
+     "price": 0.22,
+     "volume": 397918.03999999934
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02NOPMEM",
@@ -100,7 +210,17 @@
    "pregame_volume": 270998.9,
    "total_volume": 5064435.83,
    "n_markets": 2,
-   "candles": 1084
+   "candles": 1084,
+   "sides": {
+    "NOP": {
+     "price": 0.35,
+     "volume": 87437.69000000002
+    },
+    "MEM": {
+     "price": 0.65,
+     "volume": 183561.21
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02OKCCLE",
@@ -108,7 +228,17 @@
    "pregame_volume": 401467.2200000001,
    "total_volume": 6298619.140000001,
    "n_markets": 2,
-   "candles": 1145
+   "candles": 1145,
+   "sides": {
+    "OKC": {
+     "price": 0.39,
+     "volume": 134732.62000000002
+    },
+    "CLE": {
+     "price": 0.62,
+     "volume": 266734.60000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02PHXGSW",
@@ -116,7 +246,17 @@
    "pregame_volume": 311977.74,
    "total_volume": 14305069.799999999,
    "n_markets": 2,
-   "candles": 1042
+   "candles": 1042,
+   "sides": {
+    "PHX": {
+     "price": 0.44,
+     "volume": 41202.55000000001
+    },
+    "GSW": {
+     "price": 0.57,
+     "volume": 270775.19
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02PORDEN",
@@ -124,7 +264,17 @@
    "pregame_volume": 128504.66000000003,
    "total_volume": 5107345.01,
    "n_markets": 2,
-   "candles": 902
+   "candles": 902,
+   "sides": {
+    "POR": {
+     "price": 0.4,
+     "volume": 106953.94000000003
+    },
+    "DEN": {
+     "price": 0.61,
+     "volume": 21550.719999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02SACDAL",
@@ -132,7 +282,17 @@
    "pregame_volume": 326506.6599999999,
    "total_volume": 2085683.35,
    "n_markets": 2,
-   "candles": 1045
+   "candles": 1045,
+   "sides": {
+    "SAC": {
+     "price": 0.27,
+     "volume": 206596.01999999984
+    },
+    "DAL": {
+     "price": 0.74,
+     "volume": 119910.64000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02TORLAC",
@@ -140,7 +300,17 @@
    "pregame_volume": 205976.21000000002,
    "total_volume": 8155060.04,
    "n_markets": 2,
-   "candles": 936
+   "candles": 936,
+   "sides": {
+    "TOR": {
+     "price": 0.68,
+     "volume": 171559.36999999997
+    },
+    "LAC": {
+     "price": 0.33,
+     "volume": 34416.840000000055
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02UTASAS",
@@ -148,7 +318,17 @@
    "pregame_volume": 134176.30000000005,
    "total_volume": 1226638.77,
    "n_markets": 2,
-   "candles": 973
+   "candles": 973,
+   "sides": {
+    "UTA": {
+     "price": 0.11,
+     "volume": 110878.19000000005
+    },
+    "SAS": {
+     "price": 0.9,
+     "volume": 23298.109999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV02WASORL",
@@ -156,7 +336,17 @@
    "pregame_volume": 604221.3700000002,
    "total_volume": 2997442.53,
    "n_markets": 2,
-   "candles": 1130
+   "candles": 1130,
+   "sides": {
+    "WAS": {
+     "price": 0.43,
+     "volume": 452831.3200000002
+    },
+    "ORL": {
+     "price": 0.58,
+     "volume": 151390.05000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04ATLWAS",
@@ -164,7 +354,17 @@
    "pregame_volume": 1075876.0999999999,
    "total_volume": 5683544.25,
    "n_markets": 2,
-   "candles": 1100
+   "candles": 1100,
+   "sides": {
+    "WAS": {
+     "price": 0.45,
+     "volume": 959702.7499999999
+    },
+    "ATL": {
+     "price": 0.56,
+     "volume": 116173.35000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04CHABKN",
@@ -172,7 +372,17 @@
    "pregame_volume": 236696.62999999995,
    "total_volume": 4238625.2,
    "n_markets": 2,
-   "candles": 883
+   "candles": 883,
+   "sides": {
+    "CHA": {
+     "price": 0.61,
+     "volume": 134530.38999999998
+    },
+    "BKN": {
+     "price": 0.4,
+     "volume": 102166.23999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04CHINYK",
@@ -180,7 +390,17 @@
    "pregame_volume": 388842.2699999998,
    "total_volume": 1587231.02,
    "n_markets": 2,
-   "candles": 1046
+   "candles": 1046,
+   "sides": {
+    "NYK": {
+     "price": 0.84,
+     "volume": 196880.05000000008
+    },
+    "CHI": {
+     "price": 0.17,
+     "volume": 191962.21999999968
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04CLEOKC",
@@ -188,7 +408,17 @@
    "pregame_volume": 314836.4399999997,
    "total_volume": 3521676.14,
    "n_markets": 2,
-   "candles": 1130
+   "candles": 1130,
+   "sides": {
+    "OKC": {
+     "price": 0.61,
+     "volume": 104483.8299999999
+    },
+    "CLE": {
+     "price": 0.41,
+     "volume": 210352.60999999984
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04DALSAS",
@@ -196,7 +426,17 @@
    "pregame_volume": 935555.7500000006,
    "total_volume": 13130568.99,
    "n_markets": 2,
-   "candles": 1108
+   "candles": 1108,
+   "sides": {
+    "SAS": {
+     "price": 0.83,
+     "volume": 84004.94000000005
+    },
+    "DAL": {
+     "price": 0.17,
+     "volume": 851550.8100000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04INDMEM",
@@ -204,7 +444,17 @@
    "pregame_volume": 103212.92999999998,
    "total_volume": 4188981.3499999996,
    "n_markets": 2,
-   "candles": 934
+   "candles": 934,
+   "sides": {
+    "MEM": {
+     "price": 0.68,
+     "volume": 80893.18
+    },
+    "IND": {
+     "price": 0.32,
+     "volume": 22319.74999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04LALSAC",
@@ -212,7 +462,17 @@
    "pregame_volume": 188792.47999999986,
    "total_volume": 6504562.29,
    "n_markets": 2,
-   "candles": 1104
+   "candles": 1104,
+   "sides": {
+    "SAC": {
+     "price": 0.17,
+     "volume": 68975.34999999996
+    },
+    "LAL": {
+     "price": 0.84,
+     "volume": 119817.12999999992
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04MIALAC",
@@ -220,7 +480,17 @@
    "pregame_volume": 195235.40000000005,
    "total_volume": 22959740.93,
    "n_markets": 2,
-   "candles": 1030
+   "candles": 1030,
+   "sides": {
+    "MIA": {
+     "price": 0.67,
+     "volume": 133869.71000000005
+    },
+    "LAC": {
+     "price": 0.34,
+     "volume": 61365.69000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04MILBOS",
@@ -228,7 +498,17 @@
    "pregame_volume": 931268.6700000004,
    "total_volume": 5324852.01,
    "n_markets": 2,
-   "candles": 1125
+   "candles": 1125,
+   "sides": {
+    "MIL": {
+     "price": 0.17,
+     "volume": 608576.7400000005
+    },
+    "BOS": {
+     "price": 0.84,
+     "volume": 322691.93
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04MINHOU",
@@ -236,7 +516,17 @@
    "pregame_volume": 246701.76,
    "total_volume": 7532494.62,
    "n_markets": 2,
-   "candles": 1115
+   "candles": 1115,
+   "sides": {
+    "MIN": {
+     "price": 0.29,
+     "volume": 139052.49999999985
+    },
+    "HOU": {
+     "price": 0.71,
+     "volume": 107649.26000000014
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04PHIDET",
@@ -244,7 +534,17 @@
    "pregame_volume": 2672699.7300000004,
    "total_volume": 16965750.38,
    "n_markets": 2,
-   "candles": 1197
+   "candles": 1197,
+   "sides": {
+    "PHI": {
+     "price": 0.44,
+     "volume": 2156312.7300000004
+    },
+    "DET": {
+     "price": 0.57,
+     "volume": 516387.0000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04PORPHX",
@@ -252,7 +552,17 @@
    "pregame_volume": 450979.20000000007,
    "total_volume": 3762993.0700000003,
    "n_markets": 2,
-   "candles": 1055
+   "candles": 1055,
+   "sides": {
+    "POR": {
+     "price": 0.58,
+     "volume": 390567.07000000007
+    },
+    "PHX": {
+     "price": 0.43,
+     "volume": 60412.130000000034
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04TORDEN",
@@ -260,7 +570,17 @@
    "pregame_volume": 150231.57000000007,
    "total_volume": 2721486.0,
    "n_markets": 2,
-   "candles": 959
+   "candles": 959,
+   "sides": {
+    "TOR": {
+     "price": 0.36,
+     "volume": 92272.01000000007
+    },
+    "DEN": {
+     "price": 0.65,
+     "volume": 57959.55999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV04UTANOP",
@@ -268,7 +588,17 @@
    "pregame_volume": 370311.2299999996,
    "total_volume": 8065068.11,
    "n_markets": 2,
-   "candles": 956
+   "candles": 956,
+   "sides": {
+    "UTA": {
+     "price": 0.36,
+     "volume": 342473.26999999955
+    },
+    "NOP": {
+     "price": 0.65,
+     "volume": 27837.96
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV05MIAGSW",
@@ -276,7 +606,17 @@
    "pregame_volume": 1736015.7599999995,
    "total_volume": 21275356.240000002,
    "n_markets": 2,
-   "candles": 1200
+   "candles": 1200,
+   "sides": {
+    "MIA": {
+     "price": 0.4,
+     "volume": 855058.7399999999
+    },
+    "GSW": {
+     "price": 0.61,
+     "volume": 880957.0199999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV05ORLPHX",
@@ -284,7 +624,17 @@
    "pregame_volume": 1525966.4399999997,
    "total_volume": 6166351.52,
    "n_markets": 2,
-   "candles": 1197
+   "candles": 1197,
+   "sides": {
+    "PHX": {
+     "price": 0.53,
+     "volume": 1219415.8199999998
+    },
+    "ORL": {
+     "price": 0.48,
+     "volume": 306550.6199999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06BOSCHA",
@@ -292,7 +642,17 @@
    "pregame_volume": 214027.1299999999,
    "total_volume": 2138169.54,
    "n_markets": 2,
-   "candles": 1077
+   "candles": 1077,
+   "sides": {
+    "CHA": {
+     "price": 0.22,
+     "volume": 37598.34999999999
+    },
+    "BOS": {
+     "price": 0.79,
+     "volume": 176428.7799999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06MINNOP",
@@ -300,7 +660,17 @@
    "pregame_volume": 173563.49,
    "total_volume": 6380963.47,
    "n_markets": 2,
-   "candles": 1078
+   "candles": 1078,
+   "sides": {
+    "NOP": {
+     "price": 0.4,
+     "volume": 53293.309999999976
+    },
+    "MIN": {
+     "price": 0.61,
+     "volume": 120270.18000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06OKCMEM",
@@ -308,7 +678,17 @@
    "pregame_volume": 300497.76000000007,
    "total_volume": 3855748.0999999996,
    "n_markets": 2,
-   "candles": 1167
+   "candles": 1167,
+   "sides": {
+    "OKC": {
+     "price": 0.62,
+     "volume": 176224.7100000001
+    },
+    "MEM": {
+     "price": 0.39,
+     "volume": 124273.04999999994
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06PHICLE",
@@ -316,7 +696,17 @@
    "pregame_volume": 1653420.92,
    "total_volume": 16402855.96,
    "n_markets": 2,
-   "candles": 1181
+   "candles": 1181,
+   "sides": {
+    "PHI": {
+     "price": 0.6,
+     "volume": 1267104.05
+    },
+    "CLE": {
+     "price": 0.41,
+     "volume": 386316.87
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06PORLAL",
@@ -324,7 +714,17 @@
    "pregame_volume": 1050523.96,
    "total_volume": 25536692.25,
    "n_markets": 2,
-   "candles": 1183
+   "candles": 1183,
+   "sides": {
+    "POR": {
+     "price": 0.42,
+     "volume": 300914.77999999997
+    },
+    "LAL": {
+     "price": 0.6,
+     "volume": 749609.18
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06SASSAC",
@@ -332,7 +732,17 @@
    "pregame_volume": 694099.2000000004,
    "total_volume": 5685342.95,
    "n_markets": 2,
-   "candles": 1158
+   "candles": 1158,
+   "sides": {
+    "SAS": {
+     "price": 0.9,
+     "volume": 279025.1100000001
+    },
+    "SAC": {
+     "price": 0.1,
+     "volume": 415074.0900000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06TORMIL",
@@ -340,7 +750,17 @@
    "pregame_volume": 772158.6100000002,
    "total_volume": 4851841.59,
    "n_markets": 2,
-   "candles": 969
+   "candles": 969,
+   "sides": {
+    "TOR": {
+     "price": 0.59,
+     "volume": 246986.57000000004
+    },
+    "MIL": {
+     "price": 0.42,
+     "volume": 525172.0400000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06UTADAL",
@@ -348,7 +768,17 @@
    "pregame_volume": 115845.32999999994,
    "total_volume": 1918536.32,
    "n_markets": 2,
-   "candles": 938
+   "candles": 938,
+   "sides": {
+    "UTA": {
+     "price": 0.3,
+     "volume": 34061.919999999984
+    },
+    "DAL": {
+     "price": 0.71,
+     "volume": 81783.40999999996
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV06WASATL",
@@ -356,7 +786,17 @@
    "pregame_volume": 1093791.9499999995,
    "total_volume": 6200370.04,
    "n_markets": 2,
-   "candles": 1139
+   "candles": 1139,
+   "sides": {
+    "WAS": {
+     "price": 0.26,
+     "volume": 930222.9699999995
+    },
+    "ATL": {
+     "price": 0.74,
+     "volume": 163568.98
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV07BKNATL",
@@ -364,7 +804,17 @@
    "pregame_volume": 252181.27999999974,
    "total_volume": 7040921.57,
    "n_markets": 2,
-   "candles": 966
+   "candles": 966,
+   "sides": {
+    "BKN": {
+     "price": 0.3,
+     "volume": 71838.35999999994
+    },
+    "ATL": {
+     "price": 0.71,
+     "volume": 180342.91999999978
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV07DENIND",
@@ -372,7 +822,17 @@
    "pregame_volume": 353506.4299999998,
    "total_volume": 4934529.63,
    "n_markets": 2,
-   "candles": 1088
+   "candles": 1088,
+   "sides": {
+    "IND": {
+     "price": 0.27,
+     "volume": 88910.83999999998
+    },
+    "DEN": {
+     "price": 0.73,
+     "volume": 264595.58999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV07HOUPHX",
@@ -380,7 +840,17 @@
    "pregame_volume": 174364.73,
    "total_volume": 4840040.63,
    "n_markets": 2,
-   "candles": 953
+   "candles": 953,
+   "sides": {
+    "PHX": {
+     "price": 0.3,
+     "volume": 33644.21
+    },
+    "HOU": {
+     "price": 0.71,
+     "volume": 140720.52000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV07NYKCLE",
@@ -388,7 +858,17 @@
    "pregame_volume": 241153.47000000012,
    "total_volume": 5022143.4399999995,
    "n_markets": 2,
-   "candles": 1109
+   "candles": 1109,
+   "sides": {
+    "NYK": {
+     "price": 0.65,
+     "volume": 71008.76999999999
+    },
+    "CLE": {
+     "price": 0.36,
+     "volume": 170144.70000000013
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV07ORLGSW",
@@ -396,7 +876,17 @@
    "pregame_volume": 1027413.4199999999,
    "total_volume": 11105258.48,
    "n_markets": 2,
-   "candles": 1136
+   "candles": 1136,
+   "sides": {
+    "ORL": {
+     "price": 0.27,
+     "volume": 68309.53999999998
+    },
+    "GSW": {
+     "price": 0.74,
+     "volume": 959103.88
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV07SASPOR",
@@ -404,7 +894,17 @@
    "pregame_volume": 364331.57999999996,
    "total_volume": 5187297.97,
    "n_markets": 2,
-   "candles": 1120
+   "candles": 1120,
+   "sides": {
+    "SAS": {
+     "price": 0.67,
+     "volume": 252444.12999999992
+    },
+    "POR": {
+     "price": 0.35,
+     "volume": 111887.45000000007
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV07WASOKC",
@@ -412,7 +912,17 @@
    "pregame_volume": 337242.6699999998,
    "total_volume": 1637705.0,
    "n_markets": 2,
-   "candles": 1102
+   "candles": 1102,
+   "sides": {
+    "WAS": {
+     "price": 0.17,
+     "volume": 175867.13999999975
+    },
+    "OKC": {
+     "price": 0.84,
+     "volume": 161375.53000000006
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV08BKNDAL",
@@ -420,7 +930,17 @@
    "pregame_volume": 92417.41,
    "total_volume": 1506208.3,
    "n_markets": 2,
-   "candles": 952
+   "candles": 952,
+   "sides": {
+    "DAL": {
+     "price": 0.73,
+     "volume": 67459.27000000002
+    },
+    "BKN": {
+     "price": 0.27,
+     "volume": 24958.139999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV08BOSMIL",
@@ -428,7 +948,17 @@
    "pregame_volume": 134811.47999999995,
    "total_volume": 2550187.59,
    "n_markets": 2,
-   "candles": 1017
+   "candles": 1017,
+   "sides": {
+    "MIL": {
+     "price": 0.14,
+     "volume": 55360.99999999999
+    },
+    "BOS": {
+     "price": 0.87,
+     "volume": 79450.47999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV08LALDET",
@@ -436,7 +966,17 @@
    "pregame_volume": 1150307.2799999998,
    "total_volume": 21132698.75,
    "n_markets": 2,
-   "candles": 1170
+   "candles": 1170,
+   "sides": {
+    "LAL": {
+     "price": 0.29,
+     "volume": 597851.8899999999
+    },
+    "DET": {
+     "price": 0.71,
+     "volume": 552455.3899999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV08MIASAC",
@@ -444,7 +984,17 @@
    "pregame_volume": 330422.44999999984,
    "total_volume": 6300968.07,
    "n_markets": 2,
-   "candles": 973
+   "candles": 973,
+   "sides": {
+    "SAC": {
+     "price": 0.17,
+     "volume": 136794.9399999999
+    },
+    "MIA": {
+     "price": 0.84,
+     "volume": 193627.50999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV08NOPLAC",
@@ -452,7 +1002,17 @@
    "pregame_volume": 232106.46999999994,
    "total_volume": 7401918.52,
    "n_markets": 2,
-   "candles": 951
+   "candles": 951,
+   "sides": {
+    "NOP": {
+     "price": 0.53,
+     "volume": 164649.90999999995
+    },
+    "LAC": {
+     "price": 0.47,
+     "volume": 67456.56
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV08PHICHI",
@@ -460,7 +1020,17 @@
    "pregame_volume": 359168.0000000001,
    "total_volume": 5678574.93,
    "n_markets": 2,
-   "candles": 1015
+   "candles": 1015,
+   "sides": {
+    "PHI": {
+     "price": 0.8,
+     "volume": 338665.2300000001
+    },
+    "CHI": {
+     "price": 0.21,
+     "volume": 20502.770000000008
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV08UTAMIN",
@@ -468,7 +1038,17 @@
    "pregame_volume": 193635.43000000005,
    "total_volume": 4156114.42,
    "n_markets": 2,
-   "candles": 963
+   "candles": 963,
+   "sides": {
+    "UTA": {
+     "price": 0.15,
+     "volume": 60973.159999999974
+    },
+    "MIN": {
+     "price": 0.86,
+     "volume": 132662.27000000008
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09CLECHA",
@@ -476,7 +1056,17 @@
    "pregame_volume": 202867.85000000006,
    "total_volume": 8821635.299999999,
    "n_markets": 2,
-   "candles": 1157
+   "candles": 1157,
+   "sides": {
+    "CLE": {
+     "price": 0.76,
+     "volume": 174712.93000000008
+    },
+    "CHA": {
+     "price": 0.25,
+     "volume": 28154.919999999973
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09DENHOU",
@@ -484,7 +1074,17 @@
    "pregame_volume": 614481.0799999998,
    "total_volume": 5151470.46,
    "n_markets": 2,
-   "candles": 1189
+   "candles": 1189,
+   "sides": {
+    "HOU": {
+     "price": 0.64,
+     "volume": 255613.09999999986
+    },
+    "DEN": {
+     "price": 0.37,
+     "volume": 358867.98
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09INDDAL",
@@ -492,7 +1092,17 @@
    "pregame_volume": 433617.12,
    "total_volume": 9005477.879999999,
    "n_markets": 2,
-   "candles": 1084
+   "candles": 1084,
+   "sides": {
+    "IND": {
+     "price": 0.38,
+     "volume": 21779.800000000017
+    },
+    "DAL": {
+     "price": 0.63,
+     "volume": 411837.31999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09LALATL",
@@ -500,7 +1110,17 @@
    "pregame_volume": 1697643.0699999994,
    "total_volume": 14079407.81,
    "n_markets": 2,
-   "candles": 1198
+   "candles": 1198,
+   "sides": {
+    "LAL": {
+     "price": 0.45,
+     "volume": 1180407.6199999994
+    },
+    "ATL": {
+     "price": 0.56,
+     "volume": 517235.4499999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09MEMTOR",
@@ -508,7 +1128,17 @@
    "pregame_volume": 235379.81000000006,
    "total_volume": 3567658.4299999997,
    "n_markets": 2,
-   "candles": 1063
+   "candles": 1063,
+   "sides": {
+    "TOR": {
+     "price": 0.47,
+     "volume": 59013.219999999965
+    },
+    "MEM": {
+     "price": 0.54,
+     "volume": 176366.59000000008
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09NOPGSW",
@@ -516,7 +1146,17 @@
    "pregame_volume": 313293.4700000001,
    "total_volume": 3700008.2199999997,
    "n_markets": 2,
-   "candles": 1178
+   "candles": 1178,
+   "sides": {
+    "NOP": {
+     "price": 0.18,
+     "volume": 132340.52999999997
+    },
+    "GSW": {
+     "price": 0.83,
+     "volume": 180952.94000000012
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09SASPHX",
@@ -524,7 +1164,17 @@
    "pregame_volume": 221193.27000000002,
    "total_volume": 2765469.13,
    "n_markets": 2,
-   "candles": 1166
+   "candles": 1166,
+   "sides": {
+    "SAS": {
+     "price": 0.77,
+     "volume": 155794.47999999998
+    },
+    "PHX": {
+     "price": 0.24,
+     "volume": 65398.79000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV09WASDET",
@@ -532,7 +1182,17 @@
    "pregame_volume": 428014.01000000007,
    "total_volume": 2899854.4299999997,
    "n_markets": 2,
-   "candles": 1151
+   "candles": 1151,
+   "sides": {
+    "WAS": {
+     "price": 0.22,
+     "volume": 220726.73000000016
+    },
+    "DET": {
+     "price": 0.79,
+     "volume": 207287.2799999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV10BOSPHI",
@@ -540,7 +1200,17 @@
    "pregame_volume": 3196789.66,
    "total_volume": 20794837.0,
    "n_markets": 2,
-   "candles": 1200
+   "candles": 1200,
+   "sides": {
+    "PHI": {
+     "price": 0.47,
+     "volume": 2328540.82
+    },
+    "BOS": {
+     "price": 0.54,
+     "volume": 868248.8400000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV10LACPHX",
@@ -548,7 +1218,17 @@
    "pregame_volume": 449096.2500000003,
    "total_volume": 3168248.19,
    "n_markets": 2,
-   "candles": 1127
+   "candles": 1127,
+   "sides": {
+    "PHX": {
+     "price": 0.62,
+     "volume": 155789.84000000003
+    },
+    "LAC": {
+     "price": 0.39,
+     "volume": 293306.41000000027
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV10MIAUTA",
@@ -556,7 +1236,17 @@
    "pregame_volume": 1042326.1699999998,
    "total_volume": 7105473.95,
    "n_markets": 2,
-   "candles": 1174
+   "candles": 1174,
+   "sides": {
+    "UTA": {
+     "price": 0.23,
+     "volume": 487198.79000000004
+    },
+    "MIA": {
+     "price": 0.77,
+     "volume": 555127.3799999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV10MILNYK",
@@ -564,7 +1254,17 @@
    "pregame_volume": 1003802.3799999997,
    "total_volume": 6942091.83,
    "n_markets": 2,
-   "candles": 1200
+   "candles": 1200,
+   "sides": {
+    "NYK": {
+     "price": 0.9,
+     "volume": 514010.2999999998
+    },
+    "MIL": {
+     "price": 0.11,
+     "volume": 489792.0799999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV10OKCPOR",
@@ -572,7 +1272,17 @@
    "pregame_volume": 2258515.87,
    "total_volume": 21858284.73,
    "n_markets": 2,
-   "candles": 1190
+   "candles": 1190,
+   "sides": {
+    "POR": {
+     "price": 0.48,
+     "volume": 1013971.2500000002
+    },
+    "OKC": {
+     "price": 0.53,
+     "volume": 1244544.62
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26NOV10ORLSAC",
@@ -580,7 +1290,17 @@
    "pregame_volume": 483425.6499999997,
    "total_volume": 8371752.77,
    "n_markets": 2,
-   "candles": 1178
+   "candles": 1178,
+   "sides": {
+    "SAC": {
+     "price": 0.34,
+     "volume": 426450.1899999997
+    },
+    "ORL": {
+     "price": 0.66,
+     "volume": 56975.459999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT03MIATOR",
@@ -588,7 +1308,17 @@
    "pregame_volume": 680100.3699999999,
    "total_volume": 1134997.74,
    "n_markets": 2,
-   "candles": 1073
+   "candles": 1073,
+   "sides": {
+    "TOR": {
+     "price": 0.09,
+     "volume": 198631.46000000002
+    },
+    "MIA": {
+     "price": 0.93,
+     "volume": 481468.9099999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT04GSWLAC",
@@ -596,7 +1326,17 @@
    "pregame_volume": 406648.54,
    "total_volume": 1566475.6099999999,
    "n_markets": 2,
-   "candles": 979
+   "candles": 979,
+   "sides": {
+    "LAC": {
+     "price": 0.71,
+     "volume": 176913.21999999997
+    },
+    "GSW": {
+     "price": 0.31,
+     "volume": 229735.32
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT04UTADEN",
@@ -604,7 +1344,17 @@
    "pregame_volume": 486479.1299999999,
    "total_volume": 1333677.5499999998,
    "n_markets": 2,
-   "candles": 1005
+   "candles": 1005,
+   "sides": {
+    "UTA": {
+     "price": 0.69,
+     "volume": 188737.64999999997
+    },
+    "DEN": {
+     "price": 0.34,
+     "volume": 297741.4799999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT05LALSAC",
@@ -612,7 +1362,17 @@
    "pregame_volume": 92909.4,
    "total_volume": 2894887.0,
    "n_markets": 2,
-   "candles": 987
+   "candles": 987,
+   "sides": {
+    "SAC": {
+     "price": 0.43,
+     "volume": 50202.030000000006
+    },
+    "LAL": {
+     "price": 0.58,
+     "volume": 42707.369999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT05MEMATL",
@@ -620,7 +1380,17 @@
    "pregame_volume": 35412.69000000002,
    "total_volume": 805893.8200000001,
    "n_markets": 2,
-   "candles": 960
+   "candles": 960,
+   "sides": {
+    "MEM": {
+     "price": 0.41,
+     "volume": 12073.489999999994
+    },
+    "ATL": {
+     "price": 0.6,
+     "volume": 23339.20000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT05MINMIL",
@@ -628,7 +1398,17 @@
    "pregame_volume": 45706.619999999995,
    "total_volume": 1115930.49,
    "n_markets": 2,
-   "candles": 950
+   "candles": 950,
+   "sides": {
+    "MIN": {
+     "price": 0.68,
+     "volume": 33190.24
+    },
+    "MIL": {
+     "price": 0.33,
+     "volume": 12516.38
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT05NYKPHI",
@@ -636,7 +1416,17 @@
    "pregame_volume": 244786.03,
    "total_volume": 1734097.68,
    "n_markets": 2,
-   "candles": 1045
+   "candles": 1045,
+   "sides": {
+    "PHI": {
+     "price": 0.37,
+     "volume": 104431.12000000002
+    },
+    "NYK": {
+     "price": 0.64,
+     "volume": 140354.90999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT05PHXDET",
@@ -644,7 +1434,17 @@
    "pregame_volume": 19199.340000000004,
    "total_volume": 1390421.46,
    "n_markets": 2,
-   "candles": 784
+   "candles": 784,
+   "sides": {
+    "PHX": {
+     "price": 0.47,
+     "volume": 12270.700000000004
+    },
+    "DET": {
+     "price": 0.55,
+     "volume": 6928.64
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT06BKNCHA",
@@ -652,7 +1452,17 @@
    "pregame_volume": 228814.37000000005,
    "total_volume": 1435835.5699999998,
    "n_markets": 2,
-   "candles": 1167
+   "candles": 1167,
+   "sides": {
+    "CHA": {
+     "price": 0.51,
+     "volume": 49440.990000000034
+    },
+    "BKN": {
+     "price": 0.5,
+     "volume": 179373.38000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT06DENUTA",
@@ -660,7 +1470,17 @@
    "pregame_volume": 51147.81999999999,
    "total_volume": 1946662.6800000002,
    "n_markets": 2,
-   "candles": 677
+   "candles": 677,
+   "sides": {
+    "UTA": {
+     "price": 0.52,
+     "volume": 29184.30999999999
+    },
+    "DEN": {
+     "price": 0.49,
+     "volume": 21963.510000000006
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT06LALGSW",
@@ -668,7 +1488,17 @@
    "pregame_volume": 275743.70999999996,
    "total_volume": 1913639.7,
    "n_markets": 2,
-   "candles": 963
+   "candles": 963,
+   "sides": {
+    "LAL": {
+     "price": 0.32,
+     "volume": 155888.32000000012
+    },
+    "GSW": {
+     "price": 0.69,
+     "volume": 119855.38999999987
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT06NOPOKC",
@@ -676,7 +1506,17 @@
    "pregame_volume": 261698.71000000008,
    "total_volume": 3645573.73,
    "n_markets": 2,
-   "candles": 1187
+   "candles": 1187,
+   "sides": {
+    "OKC": {
+     "price": 0.48,
+     "volume": 90240.78000000003
+    },
+    "NOP": {
+     "price": 0.54,
+     "volume": 171457.93000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT07GSWPOR",
@@ -684,7 +1524,17 @@
    "pregame_volume": 106486.87999999998,
    "total_volume": 3605004.1500000004,
    "n_markets": 2,
-   "candles": 1137
+   "candles": 1137,
+   "sides": {
+    "POR": {
+     "price": 0.81,
+     "volume": 12243.270000000002
+    },
+    "GSW": {
+     "price": 0.2,
+     "volume": 94243.60999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT07MILOKC",
@@ -692,7 +1542,17 @@
    "pregame_volume": 54177.53000000001,
    "total_volume": 2392813.34,
    "n_markets": 2,
-   "candles": 1087
+   "candles": 1087,
+   "sides": {
+    "OKC": {
+     "price": 0.81,
+     "volume": 13426.600000000004
+    },
+    "MIL": {
+     "price": 0.19,
+     "volume": 40750.93000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT07MININD",
@@ -700,7 +1560,17 @@
    "pregame_volume": 112330.2100000001,
    "total_volume": 2021160.8599999999,
    "n_markets": 2,
-   "candles": 1074
+   "candles": 1074,
+   "sides": {
+    "MIN": {
+     "price": 0.57,
+     "volume": 60897.93000000005
+    },
+    "IND": {
+     "price": 0.44,
+     "volume": 51432.28000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT07ORLMEM",
@@ -708,7 +1578,17 @@
    "pregame_volume": 17146.780000000006,
    "total_volume": 1407690.77,
    "n_markets": 2,
-   "candles": 957
+   "candles": 957,
+   "sides": {
+    "ORL": {
+     "price": 0.55,
+     "volume": 6918.8600000000015
+    },
+    "MEM": {
+     "price": 0.47,
+     "volume": 10227.920000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT07PHXCHI",
@@ -716,7 +1596,17 @@
    "pregame_volume": 61887.629999999976,
    "total_volume": 1701178.69,
    "n_markets": 2,
-   "candles": 1096
+   "candles": 1096,
+   "sides": {
+    "PHX": {
+     "price": 0.58,
+     "volume": 45629.309999999976
+    },
+    "CHI": {
+     "price": 0.43,
+     "volume": 16258.319999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT08ATLSAS",
@@ -724,7 +1614,17 @@
    "pregame_volume": 83135.63999999997,
    "total_volume": 1534563.55,
    "n_markets": 2,
-   "candles": 1060
+   "candles": 1060,
+   "sides": {
+    "SAS": {
+     "price": 0.72,
+     "volume": 16469.59000000001
+    },
+    "ATL": {
+     "price": 0.29,
+     "volume": 66666.04999999996
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT08BOSCLE",
@@ -732,7 +1632,17 @@
    "pregame_volume": 101805.72999999998,
    "total_volume": 1692566.71,
    "n_markets": 2,
-   "candles": 1163
+   "candles": 1163,
+   "sides": {
+    "CLE": {
+     "price": 0.45,
+     "volume": 82571.51
+    },
+    "BOS": {
+     "price": 0.57,
+     "volume": 19234.219999999987
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT08NOPMIA",
@@ -740,7 +1650,17 @@
    "pregame_volume": 18529.82,
    "total_volume": 840781.2,
    "n_markets": 2,
-   "candles": 1100
+   "candles": 1100,
+   "sides": {
+    "NOP": {
+     "price": 0.29,
+     "volume": 12329.720000000001
+    },
+    "MIA": {
+     "price": 0.72,
+     "volume": 6200.1
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT08PHIBKN",
@@ -748,7 +1668,17 @@
    "pregame_volume": 62989.530000000006,
    "total_volume": 1814076.06,
    "n_markets": 2,
-   "candles": 1167
+   "candles": 1167,
+   "sides": {
+    "PHI": {
+     "price": 0.73,
+     "volume": 39183.18000000001
+    },
+    "BKN": {
+     "price": 0.28,
+     "volume": 23806.35
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT08SACLAL",
@@ -756,7 +1686,17 @@
    "pregame_volume": 188173.72000000003,
    "total_volume": 5654278.86,
    "n_markets": 2,
-   "candles": 1062
+   "candles": 1062,
+   "sides": {
+    "SAC": {
+     "price": 0.24,
+     "volume": 128521.56000000003
+    },
+    "LAL": {
+     "price": 0.77,
+     "volume": 59652.16000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT08WASNYK",
@@ -764,7 +1704,17 @@
    "pregame_volume": 87800.78999999998,
    "total_volume": 1721727.65,
    "n_markets": 2,
-   "candles": 1189
+   "candles": 1189,
+   "sides": {
+    "WAS": {
+     "price": 0.32,
+     "volume": 34677.81000000001
+    },
+    "NYK": {
+     "price": 0.69,
+     "volume": 53122.979999999974
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT09HOUDAL",
@@ -772,7 +1722,17 @@
    "pregame_volume": 125421.01000000001,
    "total_volume": 1040631.3999999999,
    "n_markets": 2,
-   "candles": 848
+   "candles": 848,
+   "sides": {
+    "HOU": {
+     "price": 0.58,
+     "volume": 79095.46
+    },
+    "DAL": {
+     "price": 0.44,
+     "volume": 46325.549999999996
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT09MEMCHI",
@@ -780,7 +1740,17 @@
    "pregame_volume": 133482.5,
    "total_volume": 3741033.4000000004,
    "n_markets": 2,
-   "candles": 1165
+   "candles": 1165,
+   "sides": {
+    "MEM": {
+     "price": 0.46,
+     "volume": 73517.89
+    },
+    "CHI": {
+     "price": 0.55,
+     "volume": 59964.61000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT10ATLIND",
@@ -788,7 +1758,17 @@
    "pregame_volume": 13935.52,
    "total_volume": 645889.0800000001,
    "n_markets": 2,
-   "candles": 440
+   "candles": 440,
+   "sides": {
+    "IND": {
+     "price": 0.54,
+     "volume": 8314.49
+    },
+    "ATL": {
+     "price": 0.48,
+     "volume": 5621.030000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT10DETWAS",
@@ -796,7 +1776,17 @@
    "pregame_volume": 31681.060000000005,
    "total_volume": 961097.46,
    "n_markets": 2,
-   "candles": 994
+   "candles": 994,
+   "sides": {
+    "WAS": {
+     "price": 0.5,
+     "volume": 25567.940000000002
+    },
+    "DET": {
+     "price": 0.52,
+     "volume": 6113.120000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT10LACTOR",
@@ -804,7 +1794,17 @@
    "pregame_volume": 17111.239999999987,
    "total_volume": 629282.0700000001,
    "n_markets": 2,
-   "candles": 551
+   "candles": 551,
+   "sides": {
+    "TOR": {
+     "price": 0.62,
+     "volume": 6720.169999999997
+    },
+    "LAC": {
+     "price": 0.4,
+     "volume": 10391.06999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT10MINMIA",
@@ -812,7 +1812,17 @@
    "pregame_volume": 165523.99,
    "total_volume": 1231700.19,
    "n_markets": 2,
-   "candles": 663
+   "candles": 663,
+   "sides": {
+    "MIN": {
+     "price": 0.58,
+     "volume": 119750.1
+    },
+    "MIA": {
+     "price": 0.43,
+     "volume": 45773.88999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT10PHIBOS",
@@ -820,7 +1830,17 @@
    "pregame_volume": 84829.75000000001,
    "total_volume": 548246.61,
    "n_markets": 2,
-   "candles": 949
+   "candles": 949,
+   "sides": {
+    "PHI": {
+     "price": 0.3,
+     "volume": 46116.15999999999
+    },
+    "BOS": {
+     "price": 0.71,
+     "volume": 38713.590000000026
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT10SACGSW",
@@ -828,7 +1848,17 @@
    "pregame_volume": 18896.789999999994,
    "total_volume": 866958.45,
    "n_markets": 2,
-   "candles": 565
+   "candles": 565,
+   "sides": {
+    "SAC": {
+     "price": 0.31,
+     "volume": 10780.009999999998
+    },
+    "GSW": {
+     "price": 0.7,
+     "volume": 8116.779999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT10SASPHX",
@@ -836,7 +1866,17 @@
    "pregame_volume": 51977.93999999999,
    "total_volume": 2033642.73,
    "n_markets": 2,
-   "candles": 586
+   "candles": 586,
+   "sides": {
+    "SAS": {
+     "price": 0.72,
+     "volume": 42907.569999999985
+    },
+    "PHX": {
+     "price": 0.29,
+     "volume": 9070.369999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT11CHIDEN",
@@ -844,7 +1884,17 @@
    "pregame_volume": 123513.20000000004,
    "total_volume": 2310687.8200000003,
    "n_markets": 2,
-   "candles": 720
+   "candles": 720,
+   "sides": {
+    "DEN": {
+     "price": 0.69,
+     "volume": 32286.570000000007
+    },
+    "CHI": {
+     "price": 0.31,
+     "volume": 91226.63000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT11DALHOU",
@@ -852,7 +1902,17 @@
    "pregame_volume": 64588.6,
    "total_volume": 670502.3200000001,
    "n_markets": 2,
-   "candles": 617
+   "candles": 617,
+   "sides": {
+    "HOU": {
+     "price": 0.53,
+     "volume": 27588.610000000008
+    },
+    "DAL": {
+     "price": 0.48,
+     "volume": 36999.98999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT11MILCHA",
@@ -860,7 +1920,17 @@
    "pregame_volume": 16758.690000000006,
    "total_volume": 930573.5700000001,
    "n_markets": 2,
-   "candles": 570
+   "candles": 570,
+   "sides": {
+    "MIL": {
+     "price": 0.44,
+     "volume": 14318.800000000005
+    },
+    "CHA": {
+     "price": 0.58,
+     "volume": 2439.890000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT11ORLCLE",
@@ -868,7 +1938,17 @@
    "pregame_volume": 30934.480000000007,
    "total_volume": 1331128.19,
    "n_markets": 2,
-   "candles": 573
+   "candles": 573,
+   "sides": {
+    "ORL": {
+     "price": 0.37,
+     "volume": 14138.800000000003
+    },
+    "CLE": {
+     "price": 0.65,
+     "volume": 16795.680000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT12BKNWAS",
@@ -876,7 +1956,17 @@
    "pregame_volume": 38495.04,
    "total_volume": 1190421.59,
    "n_markets": 2,
-   "candles": 609
+   "candles": 609,
+   "sides": {
+    "WAS": {
+     "price": 0.56,
+     "volume": 14083.679999999998
+    },
+    "BKN": {
+     "price": 0.45,
+     "volume": 24411.36
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT12LIOPOR",
@@ -884,7 +1974,17 @@
    "pregame_volume": 237292.85000000006,
    "total_volume": 1112689.24,
    "n_markets": 2,
-   "candles": 559
+   "candles": 559,
+   "sides": {
+    "POR": {
+     "price": 0.97,
+     "volume": 31545.74999999998
+    },
+    "LIO": {
+     "price": 0.04,
+     "volume": 205747.1000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT12MINNYK",
@@ -892,7 +1992,17 @@
    "pregame_volume": 76475.49,
    "total_volume": 1272218.07,
    "n_markets": 2,
-   "candles": 805
+   "candles": 805,
+   "sides": {
+    "NYK": {
+     "price": 0.49,
+     "volume": 24810.470000000005
+    },
+    "MIN": {
+     "price": 0.53,
+     "volume": 51665.020000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT12OKCATL",
@@ -900,7 +2010,17 @@
    "pregame_volume": 195661.25,
    "total_volume": 1851146.03,
    "n_markets": 2,
-   "candles": 918
+   "candles": 918,
+   "sides": {
+    "OKC": {
+     "price": 0.38,
+     "volume": 121762.48000000001
+    },
+    "ATL": {
+     "price": 0.63,
+     "volume": 73898.76999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT12SASUTA",
@@ -908,7 +2028,17 @@
    "pregame_volume": 110224.13999999998,
    "total_volume": 1570979.22,
    "n_markets": 2,
-   "candles": 765
+   "candles": 765,
+   "sides": {
+    "UTA": {
+     "price": 0.65,
+     "volume": 73014.84999999996
+    },
+    "SAS": {
+     "price": 0.36,
+     "volume": 37209.29000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT13CLEORL",
@@ -916,7 +2046,17 @@
    "pregame_volume": 69691.68999999999,
    "total_volume": 1706663.2,
    "n_markets": 2,
-   "candles": 710
+   "candles": 710,
+   "sides": {
+    "ORL": {
+     "price": 0.47,
+     "volume": 27308.799999999985
+    },
+    "CLE": {
+     "price": 0.54,
+     "volume": 42382.89000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT13GSWLAL",
@@ -924,7 +2064,17 @@
    "pregame_volume": 319847.20999999996,
    "total_volume": 5029065.8,
    "n_markets": 2,
-   "candles": 917
+   "candles": 917,
+   "sides": {
+    "LAL": {
+     "price": 0.43,
+     "volume": 143336.05000000002
+    },
+    "GSW": {
+     "price": 0.58,
+     "volume": 176511.15999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT13INDOKC",
@@ -932,7 +2082,17 @@
    "pregame_volume": 161587.17000000004,
    "total_volume": 3761158.5599999996,
    "n_markets": 2,
-   "candles": 893
+   "candles": 893,
+   "sides": {
+    "OKC": {
+     "price": 0.69,
+     "volume": 48257.88000000002
+    },
+    "IND": {
+     "price": 0.34,
+     "volume": 113329.29000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT13NYKTOR",
@@ -940,7 +2100,17 @@
    "pregame_volume": 295406.2399999999,
    "total_volume": 1826712.73,
    "n_markets": 2,
-   "candles": 989
+   "candles": 989,
+   "sides": {
+    "TOR": {
+     "price": 0.77,
+     "volume": 35428.47999999998
+    },
+    "NYK": {
+     "price": 0.26,
+     "volume": 259977.7599999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT13PORSAC",
@@ -948,7 +2118,17 @@
    "pregame_volume": 146502.52999999994,
    "total_volume": 1381745.28,
    "n_markets": 2,
-   "candles": 876
+   "candles": 876,
+   "sides": {
+    "SAC": {
+     "price": 0.31,
+     "volume": 67451.23999999996
+    },
+    "POR": {
+     "price": 0.7,
+     "volume": 79051.28999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT14BKNMIA",
@@ -956,7 +2136,17 @@
    "pregame_volume": 91601.87000000002,
    "total_volume": 992366.25,
    "n_markets": 2,
-   "candles": 835
+   "candles": 835,
+   "sides": {
+    "MIA": {
+     "price": 0.61,
+     "volume": 56464.19000000002
+    },
+    "BKN": {
+     "price": 0.4,
+     "volume": 35137.68000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT14CHABOS",
@@ -964,7 +2154,17 @@
    "pregame_volume": 156996.01,
    "total_volume": 1177346.4,
    "n_markets": 2,
-   "candles": 908
+   "candles": 908,
+   "sides": {
+    "CHA": {
+     "price": 0.29,
+     "volume": 91719.16000000003
+    },
+    "BOS": {
+     "price": 0.73,
+     "volume": 65276.84999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT14CHIMIL",
@@ -972,7 +2172,17 @@
    "pregame_volume": 36342.60000000001,
    "total_volume": 345645.6,
    "n_markets": 2,
-   "candles": 629
+   "candles": 629,
+   "sides": {
+    "MIL": {
+     "price": 0.37,
+     "volume": 14578.680000000006
+    },
+    "CHI": {
+     "price": 0.64,
+     "volume": 21763.920000000006
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT14DENLAC",
@@ -980,7 +2190,17 @@
    "pregame_volume": 46931.12999999999,
    "total_volume": 5887502.73,
    "n_markets": 2,
-   "candles": 600
+   "candles": 600,
+   "sides": {
+    "LAC": {
+     "price": 0.34,
+     "volume": 12948.42
+    },
+    "DEN": {
+     "price": 0.67,
+     "volume": 33982.70999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT14DETMIN",
@@ -988,7 +2208,17 @@
    "pregame_volume": 84426.78,
    "total_volume": 889125.45,
    "n_markets": 2,
-   "candles": 747
+   "candles": 747,
+   "sides": {
+    "MIN": {
+     "price": 0.64,
+     "volume": 25785.019999999997
+    },
+    "DET": {
+     "price": 0.38,
+     "volume": 58641.76000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT14NOPDAL",
@@ -996,7 +2226,17 @@
    "pregame_volume": 76769.63999999997,
    "total_volume": 1412209.04,
    "n_markets": 2,
-   "candles": 725
+   "candles": 725,
+   "sides": {
+    "NOP": {
+     "price": 0.59,
+     "volume": 37095.75999999998
+    },
+    "DAL": {
+     "price": 0.41,
+     "volume": 39673.87999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT14PHXSAS",
@@ -1004,7 +2244,17 @@
    "pregame_volume": 202421.81999999992,
    "total_volume": 1269796.91,
    "n_markets": 2,
-   "candles": 935
+   "candles": 935,
+   "sides": {
+    "SAS": {
+     "price": 0.81,
+     "volume": 36539.43
+    },
+    "PHX": {
+     "price": 0.2,
+     "volume": 165882.38999999993
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT15OKCHOU",
@@ -1012,7 +2262,17 @@
    "pregame_volume": 126028.79999999987,
    "total_volume": 1568901.0899999999,
    "n_markets": 2,
-   "candles": 836
+   "candles": 836,
+   "sides": {
+    "OKC": {
+     "price": 0.58,
+     "volume": 44037.60999999997
+    },
+    "HOU": {
+     "price": 0.42,
+     "volume": 81991.1899999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT15TORNYK",
@@ -1020,7 +2280,17 @@
    "pregame_volume": 183116.59999999995,
    "total_volume": 2945846.4699999997,
    "n_markets": 2,
-   "candles": 982
+   "candles": 982,
+   "sides": {
+    "TOR": {
+     "price": 0.41,
+     "volume": 119705.72999999997
+    },
+    "NYK": {
+     "price": 0.6,
+     "volume": 63410.86999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16ATLDAL",
@@ -1028,7 +2298,17 @@
    "pregame_volume": 27972.319999999992,
    "total_volume": 771898.4199999999,
    "n_markets": 2,
-   "candles": 447
+   "candles": 447,
+   "sides": {
+    "DAL": {
+     "price": 0.53,
+     "volume": 18807.299999999996
+    },
+    "ATL": {
+     "price": 0.49,
+     "volume": 9165.019999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16BOSPHI",
@@ -1036,7 +2316,17 @@
    "pregame_volume": 188289.64999999997,
    "total_volume": 5416226.85,
    "n_markets": 2,
-   "candles": 956
+   "candles": 956,
+   "sides": {
+    "PHI": {
+     "price": 0.72,
+     "volume": 87846.33999999997
+    },
+    "BOS": {
+     "price": 0.29,
+     "volume": 100443.31000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16CHAMEM",
@@ -1044,7 +2334,17 @@
    "pregame_volume": 44474.799999999996,
    "total_volume": 367756.38,
    "n_markets": 2,
-   "candles": 512
+   "candles": 512,
+   "sides": {
+    "MEM": {
+     "price": 0.57,
+     "volume": 35112.759999999995
+    },
+    "CHA": {
+     "price": 0.44,
+     "volume": 9362.04
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16DENLAL",
@@ -1052,7 +2352,17 @@
    "pregame_volume": 106563.71999999999,
    "total_volume": 5080652.91,
    "n_markets": 2,
-   "candles": 686
+   "candles": 686,
+   "sides": {
+    "LAL": {
+     "price": 0.58,
+     "volume": 40636.89
+    },
+    "DEN": {
+     "price": 0.43,
+     "volume": 65926.82999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16MIAORL",
@@ -1060,7 +2370,17 @@
    "pregame_volume": 91458.47,
    "total_volume": 1589846.54,
    "n_markets": 2,
-   "candles": 713
+   "candles": 713,
+   "sides": {
+    "ORL": {
+     "price": 0.72,
+     "volume": 47261.65000000001
+    },
+    "MIA": {
+     "price": 0.3,
+     "volume": 44196.819999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16MILIND",
@@ -1068,7 +2388,17 @@
    "pregame_volume": 17128.27,
    "total_volume": 2052084.96,
    "n_markets": 2,
-   "candles": 591
+   "candles": 591,
+   "sides": {
+    "MIL": {
+     "price": 0.29,
+     "volume": 11933.839999999998
+    },
+    "IND": {
+     "price": 0.72,
+     "volume": 5194.430000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16MINCHI",
@@ -1076,7 +2406,17 @@
    "pregame_volume": 112512.01,
    "total_volume": 1460338.88,
    "n_markets": 2,
-   "candles": 829
+   "candles": 829,
+   "sides": {
+    "MIN": {
+     "price": 0.34,
+     "volume": 65398.17000000001
+    },
+    "CHI": {
+     "price": 0.66,
+     "volume": 47113.83999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16PORGSW",
@@ -1084,7 +2424,17 @@
    "pregame_volume": 56951.03999999998,
    "total_volume": 2193310.99,
    "n_markets": 2,
-   "candles": 618
+   "candles": 618,
+   "sides": {
+    "POR": {
+     "price": 0.53,
+     "volume": 21499.829999999998
+    },
+    "GSW": {
+     "price": 0.48,
+     "volume": 35451.209999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16SACSAS",
@@ -1092,7 +2442,17 @@
    "pregame_volume": 188474.9,
    "total_volume": 825296.5900000001,
    "n_markets": 2,
-   "candles": 837
+   "candles": 837,
+   "sides": {
+    "SAS": {
+     "price": 0.82,
+     "volume": 28887.239999999987
+    },
+    "SAC": {
+     "price": 0.18,
+     "volume": 159587.66
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16TORDET",
@@ -1100,7 +2460,17 @@
    "pregame_volume": 143286.79999999996,
    "total_volume": 2432884.99,
    "n_markets": 2,
-   "candles": 840
+   "candles": 840,
+   "sides": {
+    "TOR": {
+     "price": 0.22,
+     "volume": 115922.70999999995
+    },
+    "DET": {
+     "price": 0.79,
+     "volume": 27364.090000000007
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16UTAPHX",
@@ -1108,7 +2478,17 @@
    "pregame_volume": 22909.680000000004,
    "total_volume": 2039249.84,
    "n_markets": 2,
-   "candles": 512
+   "candles": 512,
+   "sides": {
+    "UTA": {
+     "price": 0.38,
+     "volume": 18814.750000000004
+    },
+    "PHX": {
+     "price": 0.63,
+     "volume": 4094.9300000000007
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT16WASNOP",
@@ -1116,7 +2496,17 @@
    "pregame_volume": 45936.27,
    "total_volume": 1137992.76,
    "n_markets": 2,
-   "candles": 498
+   "candles": 498,
+   "sides": {
+    "WAS": {
+     "price": 0.49,
+     "volume": 27470.139999999992
+    },
+    "NOP": {
+     "price": 0.53,
+     "volume": 18466.130000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT20BOSDET",
@@ -1124,7 +2514,17 @@
    "pregame_volume": 1056356.14,
    "total_volume": 19713378.07,
    "n_markets": 2,
-   "candles": 1106
+   "candles": 1106,
+   "sides": {
+    "DET": {
+     "price": 0.47,
+     "volume": 577404.72
+    },
+    "BOS": {
+     "price": 0.54,
+     "volume": 478951.42
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT20OKCSAS",
@@ -1132,7 +2532,17 @@
    "pregame_volume": 1642977.2800000003,
    "total_volume": 25898320.14,
    "n_markets": 2,
-   "candles": 1188
+   "candles": 1188,
+   "sides": {
+    "SAS": {
+     "price": 0.5,
+     "volume": 816463.34
+    },
+    "OKC": {
+     "price": 0.51,
+     "volume": 826513.9400000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT20PHINYK",
@@ -1140,7 +2550,17 @@
    "pregame_volume": 2633741.690000001,
    "total_volume": 26126035.93,
    "n_markets": 2,
-   "candles": 1193
+   "candles": 1193,
+   "sides": {
+    "PHI": {
+     "price": 0.39,
+     "volume": 1988535.7700000005
+    },
+    "NYK": {
+     "price": 0.62,
+     "volume": 645205.9200000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21ATLORL",
@@ -1148,7 +2568,17 @@
    "pregame_volume": 477506.7899999999,
    "total_volume": 8770709.25,
    "n_markets": 2,
-   "candles": 1131
+   "candles": 1131,
+   "sides": {
+    "ORL": {
+     "price": 0.56,
+     "volume": 250147.3
+    },
+    "ATL": {
+     "price": 0.45,
+     "volume": 227359.4899999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21CHABKN",
@@ -1156,7 +2586,17 @@
    "pregame_volume": 552600.1900000002,
    "total_volume": 3953768.58,
    "n_markets": 2,
-   "candles": 1004
+   "candles": 1004,
+   "sides": {
+    "CHA": {
+     "price": 0.54,
+     "volume": 219781.96000000008
+    },
+    "BKN": {
+     "price": 0.48,
+     "volume": 332818.2300000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21CHITOR",
@@ -1164,7 +2604,17 @@
    "pregame_volume": 230564.06000000008,
    "total_volume": 2466803.55,
    "n_markets": 2,
-   "candles": 1100
+   "candles": 1100,
+   "sides": {
+    "TOR": {
+     "price": 0.8,
+     "volume": 63217.320000000014
+    },
+    "CHI": {
+     "price": 0.21,
+     "volume": 167346.74000000008
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21DALHOU",
@@ -1172,7 +2622,17 @@
    "pregame_volume": 466881.89,
    "total_volume": 3403493.1,
    "n_markets": 2,
-   "candles": 1121
+   "candles": 1121,
+   "sides": {
+    "HOU": {
+     "price": 0.79,
+     "volume": 120243.15000000002
+    },
+    "DAL": {
+     "price": 0.22,
+     "volume": 346638.74
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21GSWLAL",
@@ -1180,7 +2640,17 @@
    "pregame_volume": 726667.2400000001,
    "total_volume": 10170572.68,
    "n_markets": 2,
-   "candles": 1181
+   "candles": 1181,
+   "sides": {
+    "LAL": {
+     "price": 0.68,
+     "volume": 367904.4
+    },
+    "GSW": {
+     "price": 0.33,
+     "volume": 358762.8400000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21INDNOP",
@@ -1188,7 +2658,17 @@
    "pregame_volume": 280648.43000000005,
    "total_volume": 6340509.33,
    "n_markets": 2,
-   "candles": 1044
+   "candles": 1044,
+   "sides": {
+    "NOP": {
+     "price": 0.43,
+     "volume": 158805.85000000006
+    },
+    "IND": {
+     "price": 0.58,
+     "volume": 121842.57999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21MILWAS",
@@ -1196,7 +2676,17 @@
    "pregame_volume": 408256.9500000002,
    "total_volume": 4590015.359999999,
    "n_markets": 2,
-   "candles": 1106
+   "candles": 1106,
+   "sides": {
+    "WAS": {
+     "price": 0.61,
+     "volume": 257183.07000000012
+    },
+    "MIL": {
+     "price": 0.4,
+     "volume": 151073.8800000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21MINMIA",
@@ -1204,7 +2694,17 @@
    "pregame_volume": 1858962.3400000005,
    "total_volume": 9753511.3,
    "n_markets": 2,
-   "candles": 1186
+   "candles": 1186,
+   "sides": {
+    "MIN": {
+     "price": 0.47,
+     "volume": 876972.6100000001
+    },
+    "MIA": {
+     "price": 0.55,
+     "volume": 981989.7300000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21PHXPOR",
@@ -1212,7 +2712,17 @@
    "pregame_volume": 164048.76,
    "total_volume": 3773735.2700000005,
    "n_markets": 2,
-   "candles": 994
+   "candles": 994,
+   "sides": {
+    "POR": {
+     "price": 0.6,
+     "volume": 96274.02999999998
+    },
+    "PHX": {
+     "price": 0.41,
+     "volume": 67774.73000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21SACLAC",
@@ -1220,7 +2730,17 @@
    "pregame_volume": 182986.03000000003,
    "total_volume": 5439270.9,
    "n_markets": 2,
-   "candles": 962
+   "candles": 962,
+   "sides": {
+    "SAC": {
+     "price": 0.35,
+     "volume": 146310.79000000004
+    },
+    "LAC": {
+     "price": 0.65,
+     "volume": 36675.240000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT21UTAMEM",
@@ -1228,7 +2748,17 @@
    "pregame_volume": 1124586.1599999995,
    "total_volume": 3144136.0300000003,
    "n_markets": 2,
-   "candles": 1082
+   "candles": 1082,
+   "sides": {
+    "UTA": {
+     "price": 0.45,
+     "volume": 430766.47999999963
+    },
+    "MEM": {
+     "price": 0.56,
+     "volume": 693819.6799999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT22CLEPHI",
@@ -1236,7 +2766,17 @@
    "pregame_volume": 2072867.9700000007,
    "total_volume": 22372374.37,
    "n_markets": 2,
-   "candles": 1181
+   "candles": 1181,
+   "sides": {
+    "PHI": {
+     "price": 0.56,
+     "volume": 1601231.6700000009
+    },
+    "CLE": {
+     "price": 0.45,
+     "volume": 471636.29999999976
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT22DENOKC",
@@ -1244,7 +2784,17 @@
    "pregame_volume": 718139.4900000002,
    "total_volume": 17112529.93,
    "n_markets": 2,
-   "candles": 1192
+   "candles": 1192,
+   "sides": {
+    "OKC": {
+     "price": 0.74,
+     "volume": 249369.60999999993
+    },
+    "DEN": {
+     "price": 0.27,
+     "volume": 468769.88000000024
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23ATLCHA",
@@ -1252,7 +2802,17 @@
    "pregame_volume": 109113.0,
    "total_volume": 1307692.65,
    "n_markets": 2,
-   "candles": 925
+   "candles": 925,
+   "sides": {
+    "CHA": {
+     "price": 0.44,
+     "volume": 14826.070000000002
+    },
+    "ATL": {
+     "price": 0.56,
+     "volume": 94286.93
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23CHIMIL",
@@ -1260,7 +2820,17 @@
    "pregame_volume": 727168.4400000002,
    "total_volume": 10673174.95,
    "n_markets": 2,
-   "candles": 1055
+   "candles": 1055,
+   "sides": {
+    "MIL": {
+     "price": 0.54,
+     "volume": 552054.5600000002
+    },
+    "CHI": {
+     "price": 0.47,
+     "volume": 175113.87999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23DALIND",
@@ -1268,7 +2838,17 @@
    "pregame_volume": 113181.61999999997,
    "total_volume": 4293381.13,
    "n_markets": 2,
-   "candles": 958
+   "candles": 958,
+   "sides": {
+    "IND": {
+     "price": 0.7,
+     "volume": 70151.61999999998
+    },
+    "DAL": {
+     "price": 0.3,
+     "volume": 43029.999999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23DETMIA",
@@ -1276,7 +2856,17 @@
    "pregame_volume": 468466.6399999999,
    "total_volume": 4516506.39,
    "n_markets": 2,
-   "candles": 1017
+   "candles": 1017,
+   "sides": {
+    "MIA": {
+     "price": 0.46,
+     "volume": 356779.7499999999
+    },
+    "DET": {
+     "price": 0.54,
+     "volume": 111686.89000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23HOUSAS",
@@ -1284,7 +2874,17 @@
    "pregame_volume": 342141.84999999986,
    "total_volume": 13660386.49,
    "n_markets": 2,
-   "candles": 1074
+   "candles": 1074,
+   "sides": {
+    "SAS": {
+     "price": 0.65,
+     "volume": 167036.1399999999
+    },
+    "HOU": {
+     "price": 0.35,
+     "volume": 175105.70999999993
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23LACLAL",
@@ -1292,7 +2892,17 @@
    "pregame_volume": 210632.45000000007,
    "total_volume": 4660659.46,
    "n_markets": 2,
-   "candles": 1026
+   "candles": 1026,
+   "sides": {
+    "LAL": {
+     "price": 0.76,
+     "volume": 159148.78000000006
+    },
+    "LAC": {
+     "price": 0.25,
+     "volume": 51483.67000000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23MEMGSW",
@@ -1300,7 +2910,17 @@
    "pregame_volume": 210284.40000000005,
    "total_volume": 9103082.629999999,
    "n_markets": 2,
-   "candles": 975
+   "candles": 975,
+   "sides": {
+    "MEM": {
+     "price": 0.4,
+     "volume": 53840.35000000001
+    },
+    "GSW": {
+     "price": 0.61,
+     "volume": 156444.05000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23MINORL",
@@ -1308,7 +2928,17 @@
    "pregame_volume": 1420839.2600000005,
    "total_volume": 7176715.2,
    "n_markets": 2,
-   "candles": 1141
+   "candles": 1141,
+   "sides": {
+    "ORL": {
+     "price": 0.53,
+     "volume": 202294.04000000012
+    },
+    "MIN": {
+     "price": 0.48,
+     "volume": 1218545.2200000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23NOPUTA",
@@ -1316,7 +2946,17 @@
    "pregame_volume": 177860.62,
    "total_volume": 4013333.74,
    "n_markets": 2,
-   "candles": 1002
+   "candles": 1002,
+   "sides": {
+    "UTA": {
+     "price": 0.51,
+     "volume": 78077.73
+    },
+    "NOP": {
+     "price": 0.5,
+     "volume": 99782.89
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23NYKBOS",
@@ -1324,7 +2964,17 @@
    "pregame_volume": 622687.7400000001,
    "total_volume": 10936840.48,
    "n_markets": 2,
-   "candles": 1151
+   "candles": 1151,
+   "sides": {
+    "NYK": {
+     "price": 0.44,
+     "volume": 488021.93000000005
+    },
+    "BOS": {
+     "price": 0.57,
+     "volume": 134665.81000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23PORSAC",
@@ -1332,7 +2982,17 @@
    "pregame_volume": 473858.12000000017,
    "total_volume": 5529594.32,
    "n_markets": 2,
-   "candles": 994
+   "candles": 994,
+   "sides": {
+    "SAC": {
+     "price": 0.22,
+     "volume": 366722.21000000014
+    },
+    "POR": {
+     "price": 0.8,
+     "volume": 107135.91000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT23TORWAS",
@@ -1340,7 +3000,17 @@
    "pregame_volume": 393895.93999999994,
    "total_volume": 4163725.02,
    "n_markets": 2,
-   "candles": 1142
+   "candles": 1142,
+   "sides": {
+    "WAS": {
+     "price": 0.26,
+     "volume": 234039.05999999997
+    },
+    "TOR": {
+     "price": 0.75,
+     "volume": 159856.87999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24BKNCLE",
@@ -1348,7 +3018,17 @@
    "pregame_volume": 81712.34999999995,
    "total_volume": 2083275.1099999999,
    "n_markets": 2,
-   "candles": 901
+   "candles": 901,
+   "sides": {
+    "CLE": {
+     "price": 0.81,
+     "volume": 55084.28999999997
+    },
+    "BKN": {
+     "price": 0.2,
+     "volume": 26628.059999999972
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24GSWPHX",
@@ -1356,7 +3036,17 @@
    "pregame_volume": 259693.4700000001,
    "total_volume": 7405737.220000001,
    "n_markets": 2,
-   "candles": 992
+   "candles": 992,
+   "sides": {
+    "PHX": {
+     "price": 0.78,
+     "volume": 31954.409999999978
+    },
+    "GSW": {
+     "price": 0.23,
+     "volume": 227739.0600000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24HOUATL",
@@ -1364,7 +3054,17 @@
    "pregame_volume": 326478.3200000001,
    "total_volume": 3322603.8200000003,
    "n_markets": 2,
-   "candles": 1097
+   "candles": 1097,
+   "sides": {
+    "HOU": {
+     "price": 0.5,
+     "volume": 217434.47000000006
+    },
+    "ATL": {
+     "price": 0.52,
+     "volume": 109043.85000000008
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24MIACHA",
@@ -1372,7 +3072,17 @@
    "pregame_volume": 986626.0100000002,
    "total_volume": 10903912.629999999,
    "n_markets": 2,
-   "candles": 1101
+   "candles": 1101,
+   "sides": {
+    "MIA": {
+     "price": 0.61,
+     "volume": 856438.0800000002
+    },
+    "CHA": {
+     "price": 0.4,
+     "volume": 130187.93
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24MILPHI",
@@ -1380,7 +3090,17 @@
    "pregame_volume": 239632.15,
    "total_volume": 3445438.2,
    "n_markets": 2,
-   "candles": 1071
+   "candles": 1071,
+   "sides": {
+    "PHI": {
+     "price": 0.84,
+     "volume": 166809.31000000003
+    },
+    "MIL": {
+     "price": 0.16,
+     "volume": 72822.83999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24NOPDEN",
@@ -1388,7 +3108,17 @@
    "pregame_volume": 115909.31999999999,
    "total_volume": 9174651.93,
    "n_markets": 2,
-   "candles": 800
+   "candles": 800,
+   "sides": {
+    "NOP": {
+     "price": 0.2,
+     "volume": 29016.279999999973
+    },
+    "DEN": {
+     "price": 0.81,
+     "volume": 86893.04000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24SASDAL",
@@ -1396,7 +3126,17 @@
    "pregame_volume": 809391.0300000001,
    "total_volume": 5311921.03,
    "n_markets": 2,
-   "candles": 1149
+   "candles": 1149,
+   "sides": {
+    "SAS": {
+     "price": 0.87,
+     "volume": 501047.8700000002
+    },
+    "DAL": {
+     "price": 0.14,
+     "volume": 308343.1599999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT24WASCHI",
@@ -1404,7 +3144,17 @@
    "pregame_volume": 286729.26999999996,
    "total_volume": 3928638.86,
    "n_markets": 2,
-   "candles": 1084
+   "candles": 1084,
+   "sides": {
+    "WAS": {
+     "price": 0.48,
+     "volume": 218402.80999999997
+    },
+    "CHI": {
+     "price": 0.53,
+     "volume": 68326.45999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT25DETPHI",
@@ -1412,7 +3162,17 @@
    "pregame_volume": 381916.6500000001,
    "total_volume": 9046744.56,
    "n_markets": 2,
-   "candles": 1087
+   "candles": 1087,
+   "sides": {
+    "PHI": {
+     "price": 0.47,
+     "volume": 251981.9100000001
+    },
+    "DET": {
+     "price": 0.54,
+     "volume": 129934.74
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT25INDBKN",
@@ -1420,7 +3180,17 @@
    "pregame_volume": 156186.96000000002,
    "total_volume": 1839175.95,
    "n_markets": 2,
-   "candles": 821
+   "candles": 821,
+   "sides": {
+    "IND": {
+     "price": 0.67,
+     "volume": 110157.53999999996
+    },
+    "BKN": {
+     "price": 0.33,
+     "volume": 46029.420000000064
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT25LACOKC",
@@ -1428,7 +3198,17 @@
    "pregame_volume": 409902.95,
    "total_volume": 6949214.399999999,
    "n_markets": 2,
-   "candles": 1115
+   "candles": 1115,
+   "sides": {
+    "OKC": {
+     "price": 0.91,
+     "volume": 101980.89000000007
+    },
+    "LAC": {
+     "price": 0.1,
+     "volume": 307922.05999999994
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT25LALUTA",
@@ -1436,7 +3216,17 @@
    "pregame_volume": 211916.14999999994,
    "total_volume": 5498985.01,
    "n_markets": 2,
-   "candles": 959
+   "candles": 959,
+   "sides": {
+    "UTA": {
+     "price": 0.32,
+     "volume": 72619.37
+    },
+    "LAL": {
+     "price": 0.69,
+     "volume": 139296.77999999994
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT25MEMSAC",
@@ -1444,7 +3234,17 @@
    "pregame_volume": 561900.02,
    "total_volume": 9164290.17,
    "n_markets": 2,
-   "candles": 802
+   "candles": 802,
+   "sides": {
+    "SAC": {
+     "price": 0.4,
+     "volume": 501415.9
+    },
+    "MEM": {
+     "price": 0.61,
+     "volume": 60484.12
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT25ORLNYK",
@@ -1452,7 +3252,17 @@
    "pregame_volume": 143678.59000000008,
    "total_volume": 4620559.6,
    "n_markets": 2,
-   "candles": 907
+   "candles": 907,
+   "sides": {
+    "ORL": {
+     "price": 0.3,
+     "volume": 24513.500000000015
+    },
+    "NYK": {
+     "price": 0.7,
+     "volume": 119165.09000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT25TORMIN",
@@ -1460,7 +3270,17 @@
    "pregame_volume": 1087496.0200000003,
    "total_volume": 3681234.34,
    "n_markets": 2,
-   "candles": 1099
+   "candles": 1099,
+   "sides": {
+    "TOR": {
+     "price": 0.41,
+     "volume": 145858.29
+    },
+    "MIN": {
+     "price": 0.6,
+     "volume": 941637.7300000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26ATLHOU",
@@ -1468,7 +3288,17 @@
    "pregame_volume": 167306.91000000015,
    "total_volume": 2598581.96,
    "n_markets": 2,
-   "candles": 1039
+   "candles": 1039,
+   "sides": {
+    "HOU": {
+     "price": 0.65,
+     "volume": 81408.69000000013
+    },
+    "ATL": {
+     "price": 0.37,
+     "volume": 85898.22000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26CHIBOS",
@@ -1476,7 +3306,17 @@
    "pregame_volume": 208631.21999999994,
    "total_volume": 1781533.93,
    "n_markets": 2,
-   "candles": 1044
+   "candles": 1044,
+   "sides": {
+    "CHI": {
+     "price": 0.14,
+     "volume": 145648.35999999993
+    },
+    "BOS": {
+     "price": 0.87,
+     "volume": 62982.86000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26DALMIA",
@@ -1484,7 +3324,17 @@
    "pregame_volume": 426796.9099999998,
    "total_volume": 3955386.14,
    "n_markets": 2,
-   "candles": 1023
+   "candles": 1023,
+   "sides": {
+    "MIA": {
+     "price": 0.72,
+     "volume": 34332.37999999998
+    },
+    "DAL": {
+     "price": 0.29,
+     "volume": 392464.5299999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26GSWDEN",
@@ -1492,7 +3342,17 @@
    "pregame_volume": 195619.5100000003,
    "total_volume": 15539888.2,
    "n_markets": 2,
-   "candles": 1004
+   "candles": 1004,
+   "sides": {
+    "GSW": {
+     "price": 0.3,
+     "volume": 156146.0700000003
+    },
+    "DEN": {
+     "price": 0.71,
+     "volume": 39473.439999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26INDMIL",
@@ -1500,7 +3360,17 @@
    "pregame_volume": 88293.40999999997,
    "total_volume": 4305049.33,
    "n_markets": 2,
-   "candles": 893
+   "candles": 893,
+   "sides": {
+    "MIL": {
+     "price": 0.39,
+     "volume": 40164.210000000014
+    },
+    "IND": {
+     "price": 0.61,
+     "volume": 48129.19999999997
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26MEMUTA",
@@ -1508,7 +3378,17 @@
    "pregame_volume": 253869.40999999997,
    "total_volume": 5445020.67,
    "n_markets": 2,
-   "candles": 1043
+   "candles": 1043,
+   "sides": {
+    "UTA": {
+     "price": 0.5,
+     "volume": 167770.81999999995
+    },
+    "MEM": {
+     "price": 0.52,
+     "volume": 86098.59000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26MINCLE",
@@ -1516,7 +3396,17 @@
    "pregame_volume": 3104698.1900000027,
    "total_volume": 15870304.3,
    "n_markets": 2,
-   "candles": 1178
+   "candles": 1178,
+   "sides": {
+    "MIN": {
+     "price": 0.43,
+     "volume": 2749162.5500000026
+    },
+    "CLE": {
+     "price": 0.58,
+     "volume": 355535.64000000013
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26PHXOKC",
@@ -1524,7 +3414,17 @@
    "pregame_volume": 471040.29000000015,
    "total_volume": 2282371.71,
    "n_markets": 2,
-   "candles": 1068
+   "candles": 1068,
+   "sides": {
+    "PHX": {
+     "price": 0.26,
+     "volume": 321872.4500000002
+    },
+    "OKC": {
+     "price": 0.75,
+     "volume": 149167.83999999994
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT26WASCHA",
@@ -1532,7 +3432,17 @@
    "pregame_volume": 722011.4399999997,
    "total_volume": 4290600.7,
    "n_markets": 2,
-   "candles": 1093
+   "candles": 1093,
+   "sides": {
+    "WAS": {
+     "price": 0.41,
+     "volume": 377442.72000000003
+    },
+    "CHA": {
+     "price": 0.59,
+     "volume": 344568.71999999974
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT27BKNBOS",
@@ -1540,7 +3450,17 @@
    "pregame_volume": 846962.4900000003,
    "total_volume": 13328794.78,
    "n_markets": 2,
-   "candles": 1179
+   "candles": 1179,
+   "sides": {
+    "BOS": {
+     "price": 0.87,
+     "volume": 366962.7400000001
+    },
+    "BKN": {
+     "price": 0.14,
+     "volume": 479999.75000000023
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT27DETNYK",
@@ -1548,7 +3468,17 @@
    "pregame_volume": 1326514.1499999997,
    "total_volume": 10249698.350000001,
    "n_markets": 2,
-   "candles": 1190
+   "candles": 1190,
+   "sides": {
+    "NYK": {
+     "price": 0.61,
+     "volume": 817128.7599999998
+    },
+    "DET": {
+     "price": 0.4,
+     "volume": 509385.38999999996
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT27PORLAL",
@@ -1556,7 +3486,17 @@
    "pregame_volume": 2411032.37,
    "total_volume": 24181901.45,
    "n_markets": 2,
-   "candles": 1193
+   "candles": 1193,
+   "sides": {
+    "POR": {
+     "price": 0.48,
+     "volume": 1131196.8099999998
+    },
+    "LAL": {
+     "price": 0.53,
+     "volume": 1279835.56
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT27SACSAS",
@@ -1564,7 +3504,17 @@
    "pregame_volume": 1649935.3700000006,
    "total_volume": 5938995.47,
    "n_markets": 2,
-   "candles": 1193
+   "candles": 1193,
+   "sides": {
+    "SAS": {
+     "price": 0.93,
+     "volume": 82516.12999999993
+    },
+    "SAC": {
+     "price": 0.09,
+     "volume": 1567419.2400000007
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28CHADET",
@@ -1572,7 +3522,17 @@
    "pregame_volume": 194369.62999999995,
    "total_volume": 2676642.19,
    "n_markets": 2,
-   "candles": 1057
+   "candles": 1057,
+   "sides": {
+    "DET": {
+     "price": 0.72,
+     "volume": 32324.72000000001
+    },
+    "CHA": {
+     "price": 0.29,
+     "volume": 162044.90999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28DENNOP",
@@ -1580,7 +3540,17 @@
    "pregame_volume": 59733.859999999986,
    "total_volume": 1373072.8399999999,
    "n_markets": 2,
-   "candles": 818
+   "candles": 818,
+   "sides": {
+    "NOP": {
+     "price": 0.39,
+     "volume": 22488.000000000004
+    },
+    "DEN": {
+     "price": 0.62,
+     "volume": 37245.85999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28GSWMIN",
@@ -1588,7 +3558,17 @@
    "pregame_volume": 313849.60000000003,
    "total_volume": 6094858.82,
    "n_markets": 2,
-   "candles": 1151
+   "candles": 1151,
+   "sides": {
+    "MIN": {
+     "price": 0.6,
+     "volume": 138174.01999999996
+    },
+    "GSW": {
+     "price": 0.4,
+     "volume": 175675.58000000007
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28HOUMIL",
@@ -1596,7 +3576,17 @@
    "pregame_volume": 193379.4799999999,
    "total_volume": 857251.1399999999,
    "n_markets": 2,
-   "candles": 968
+   "candles": 968,
+   "sides": {
+    "MIL": {
+     "price": 0.25,
+     "volume": 139865.9899999999
+    },
+    "HOU": {
+     "price": 0.76,
+     "volume": 53513.48999999999
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28LALLAC",
@@ -1604,7 +3594,17 @@
    "pregame_volume": 1009021.0799999996,
    "total_volume": 12393549.809999999,
    "n_markets": 2,
-   "candles": 1080
+   "candles": 1080,
+   "sides": {
+    "LAL": {
+     "price": 0.5,
+     "volume": 343840.5500000002
+    },
+    "LAC": {
+     "price": 0.51,
+     "volume": 665180.5299999994
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28MIAATL",
@@ -1612,7 +3612,17 @@
    "pregame_volume": 877418.45,
    "total_volume": 6137282.95,
    "n_markets": 2,
-   "candles": 1164
+   "candles": 1164,
+   "sides": {
+    "MIA": {
+     "price": 0.44,
+     "volume": 742918.44
+    },
+    "ATL": {
+     "price": 0.56,
+     "volume": 134500.00999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28NYKCHI",
@@ -1620,7 +3630,17 @@
    "pregame_volume": 92979.15000000001,
    "total_volume": 7600992.66,
    "n_markets": 2,
-   "candles": 965
+   "candles": 965,
+   "sides": {
+    "NYK": {
+     "price": 0.72,
+     "volume": 68016.57
+    },
+    "CHI": {
+     "price": 0.29,
+     "volume": 24962.580000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28OKCDAL",
@@ -1628,7 +3648,17 @@
    "pregame_volume": 333831.75,
    "total_volume": 11215103.49,
    "n_markets": 2,
-   "candles": 1099
+   "candles": 1099,
+   "sides": {
+    "OKC": {
+     "price": 0.64,
+     "volume": 88092.12000000004
+    },
+    "DAL": {
+     "price": 0.37,
+     "volume": 245739.62999999998
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28ORLTOR",
@@ -1636,7 +3666,17 @@
    "pregame_volume": 61527.16000000002,
    "total_volume": 997539.0,
    "n_markets": 2,
-   "candles": 850
+   "candles": 850,
+   "sides": {
+    "TOR": {
+     "price": 0.63,
+     "volume": 29426.59000000003
+    },
+    "ORL": {
+     "price": 0.37,
+     "volume": 32100.569999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28PHIIND",
@@ -1644,7 +3684,17 @@
    "pregame_volume": 1094549.9200000006,
    "total_volume": 11061981.02,
    "n_markets": 2,
-   "candles": 1185
+   "candles": 1185,
+   "sides": {
+    "PHI": {
+     "price": 0.71,
+     "volume": 958271.3200000006
+    },
+    "IND": {
+     "price": 0.3,
+     "volume": 136278.59999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28SASUTA",
@@ -1652,7 +3702,17 @@
    "pregame_volume": 139079.54999999993,
    "total_volume": 9357660.55,
    "n_markets": 2,
-   "candles": 985
+   "candles": 985,
+   "sides": {
+    "UTA": {
+     "price": 0.15,
+     "volume": 88779.45999999996
+    },
+    "SAS": {
+     "price": 0.87,
+     "volume": 50300.089999999975
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT28WASCLE",
@@ -1660,7 +3720,17 @@
    "pregame_volume": 237757.61999999982,
    "total_volume": 3308246.75,
    "n_markets": 2,
-   "candles": 1068
+   "candles": 1068,
+   "sides": {
+    "WAS": {
+     "price": 0.24,
+     "volume": 157935.27999999977
+    },
+    "CLE": {
+     "price": 0.77,
+     "volume": 79822.34000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT29CLEATL",
@@ -1668,7 +3738,17 @@
    "pregame_volume": 942486.5,
    "total_volume": 9400100.5,
    "n_markets": 2,
-   "candles": 1175
+   "candles": 1175,
+   "sides": {
+    "CLE": {
+     "price": 0.49,
+     "volume": 613022.0100000001
+    },
+    "ATL": {
+     "price": 0.52,
+     "volume": 329464.48999999993
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT29MEMPOR",
@@ -1676,7 +3756,17 @@
    "pregame_volume": 475498.30999999994,
    "total_volume": 13136302.02,
    "n_markets": 2,
-   "candles": 1191
+   "candles": 1191,
+   "sides": {
+    "POR": {
+     "price": 0.73,
+     "volume": 141296.01000000004
+    },
+    "MEM": {
+     "price": 0.28,
+     "volume": 334202.29999999993
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT29SACNOP",
@@ -1684,7 +3774,17 @@
    "pregame_volume": 202040.34000000005,
    "total_volume": 3221475.92,
    "n_markets": 2,
-   "candles": 1132
+   "candles": 1132,
+   "sides": {
+    "SAC": {
+     "price": 0.32,
+     "volume": 163799.50000000003
+    },
+    "NOP": {
+     "price": 0.69,
+     "volume": 38240.840000000026
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30CHAWAS",
@@ -1692,7 +3792,17 @@
    "pregame_volume": 1085253.1100000006,
    "total_volume": 5219033.94,
    "n_markets": 2,
-   "candles": 1163
+   "candles": 1163,
+   "sides": {
+    "WAS": {
+     "price": 0.5,
+     "volume": 735158.4600000007
+    },
+    "CHA": {
+     "price": 0.5,
+     "volume": 350094.64999999985
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30CHIBOS",
@@ -1700,7 +3810,17 @@
    "pregame_volume": 591910.9300000002,
    "total_volume": 3287960.13,
    "n_markets": 2,
-   "candles": 1162
+   "candles": 1162,
+   "sides": {
+    "CHI": {
+     "price": 0.14,
+     "volume": 449880.8900000001
+    },
+    "BOS": {
+     "price": 0.87,
+     "volume": 142030.04000000004
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30DENPHX",
@@ -1708,7 +3828,17 @@
    "pregame_volume": 182015.67000000007,
    "total_volume": 7678506.26,
    "n_markets": 2,
-   "candles": 1029
+   "candles": 1029,
+   "sides": {
+    "PHX": {
+     "price": 0.38,
+     "volume": 28642.389999999992
+    },
+    "DEN": {
+     "price": 0.62,
+     "volume": 153373.2800000001
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30DETBKN",
@@ -1716,7 +3846,17 @@
    "pregame_volume": 290839.4099999999,
    "total_volume": 2222394.02,
    "n_markets": 2,
-   "candles": 1118
+   "candles": 1118,
+   "sides": {
+    "DET": {
+     "price": 0.73,
+     "volume": 157994.65999999986
+    },
+    "BKN": {
+     "price": 0.28,
+     "volume": 132844.75000000003
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30HOUDAL",
@@ -1724,7 +3864,17 @@
    "pregame_volume": 536265.0599999998,
    "total_volume": 9611012.940000001,
    "n_markets": 2,
-   "candles": 1118
+   "candles": 1118,
+   "sides": {
+    "HOU": {
+     "price": 0.65,
+     "volume": 97236.13999999998
+    },
+    "DAL": {
+     "price": 0.36,
+     "volume": 439028.91999999987
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30INDMIA",
@@ -1732,7 +3882,17 @@
    "pregame_volume": 145658.36,
    "total_volume": 2021472.7800000003,
    "n_markets": 2,
-   "candles": 1031
+   "candles": 1031,
+   "sides": {
+    "MIA": {
+     "price": 0.74,
+     "volume": 34135.56
+    },
+    "IND": {
+     "price": 0.27,
+     "volume": 111522.8
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30LACMIN",
@@ -1740,7 +3900,17 @@
    "pregame_volume": 56629.92000000002,
    "total_volume": 966269.49,
    "n_markets": 2,
-   "candles": 952
+   "candles": 952,
+   "sides": {
+    "MIN": {
+     "price": 0.71,
+     "volume": 31701.600000000006
+    },
+    "LAC": {
+     "price": 0.3,
+     "volume": 24928.320000000014
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30LALGSW",
@@ -1748,7 +3918,17 @@
    "pregame_volume": 1041590.0600000005,
    "total_volume": 20779800.060000002,
    "n_markets": 2,
-   "candles": 1179
+   "candles": 1179,
+   "sides": {
+    "LAL": {
+     "price": 0.57,
+     "volume": 576785.1600000004
+    },
+    "GSW": {
+     "price": 0.44,
+     "volume": 464804.90000000014
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30NYKPHI",
@@ -1756,7 +3936,17 @@
    "pregame_volume": 1165474.1600000001,
    "total_volume": 11230938.46,
    "n_markets": 2,
-   "candles": 1186
+   "candles": 1186,
+   "sides": {
+    "PHI": {
+     "price": 0.43,
+     "volume": 619381.8199999998
+    },
+    "NYK": {
+     "price": 0.59,
+     "volume": 546092.3400000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT30ORLTOR",
@@ -1764,7 +3954,17 @@
    "pregame_volume": 85611.29999999999,
    "total_volume": 2381420.13,
    "n_markets": 2,
-   "candles": 958
+   "candles": 958,
+   "sides": {
+    "TOR": {
+     "price": 0.66,
+     "volume": 70195.36
+    },
+    "ORL": {
+     "price": 0.35,
+     "volume": 15415.939999999991
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT31ATLNOP",
@@ -1772,7 +3972,17 @@
    "pregame_volume": 431669.38999999996,
    "total_volume": 3178291.48,
    "n_markets": 2,
-   "candles": 933
+   "candles": 933,
+   "sides": {
+    "NOP": {
+     "price": 0.35,
+     "volume": 25003.960000000014
+    },
+    "ATL": {
+     "price": 0.65,
+     "volume": 406665.42999999993
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT31CLEMIL",
@@ -1780,7 +3990,17 @@
    "pregame_volume": 95944.94999999995,
    "total_volume": 1552452.43,
    "n_markets": 2,
-   "candles": 951
+   "candles": 951,
+   "sides": {
+    "MIL": {
+     "price": 0.24,
+     "volume": 41764.08999999999
+    },
+    "CLE": {
+     "price": 0.77,
+     "volume": 54180.859999999964
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT31MINSAS",
@@ -1788,7 +4008,17 @@
    "pregame_volume": 864579.5400000002,
    "total_volume": 6937714.93,
    "n_markets": 2,
-   "candles": 1182
+   "candles": 1182,
+   "sides": {
+    "SAS": {
+     "price": 0.84,
+     "volume": 81417.30999999997
+    },
+    "MIN": {
+     "price": 0.18,
+     "volume": 783162.2300000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT31OKCHOU",
@@ -1796,7 +4026,17 @@
    "pregame_volume": 238379.76999999993,
    "total_volume": 3657137.5300000003,
    "n_markets": 2,
-   "candles": 1115
+   "candles": 1115,
+   "sides": {
+    "OKC": {
+     "price": 0.43,
+     "volume": 99831.60999999999
+    },
+    "HOU": {
+     "price": 0.58,
+     "volume": 138548.15999999995
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT31PHICHA",
@@ -1804,7 +4044,17 @@
    "pregame_volume": 1662811.2600000002,
    "total_volume": 13203031.669999998,
    "n_markets": 2,
-   "candles": 1118
+   "candles": 1118,
+   "sides": {
+    "PHI": {
+     "price": 0.56,
+     "volume": 813548.2800000005
+    },
+    "CHA": {
+     "price": 0.45,
+     "volume": 849262.9799999996
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT31PORUTA",
@@ -1812,7 +4062,17 @@
    "pregame_volume": 157751.12000000002,
    "total_volume": 2713924.42,
    "n_markets": 2,
-   "candles": 973
+   "candles": 973,
+   "sides": {
+    "UTA": {
+     "price": 0.3,
+     "volume": 101862.73
+    },
+    "POR": {
+     "price": 0.71,
+     "volume": 55888.39000000002
+    }
+   }
   },
   {
    "event": "KXNBAGAME-26OCT31SACMEM",
@@ -1820,7 +4080,17 @@
    "pregame_volume": 457705.52999999997,
    "total_volume": 2302759.09,
    "n_markets": 2,
-   "candles": 1107
+   "candles": 1107,
+   "sides": {
+    "SAC": {
+     "price": 0.27,
+     "volume": 329380.79999999993
+    },
+    "MEM": {
+     "price": 0.74,
+     "volume": 128324.73000000005
+    }
+   }
   },
   {
    "event": "KXNBAGAMESPECIALS-27",
@@ -1828,7 +4098,17 @@
    "pregame_volume": 0.0,
    "total_volume": 15.14,
    "n_markets": 2,
-   "candles": 0
+   "candles": 0,
+   "sides": {
+    "REB20": {
+     "price": null,
+     "volume": 0
+    },
+    "BLK8": {
+     "price": null,
+     "volume": 0
+    }
+   }
   }
  ]
 }
