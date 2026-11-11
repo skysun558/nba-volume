@@ -183,11 +183,14 @@ def backfill(days, with_pregame=True):
                         except ValueError:
                             continue
                         try:
-                            pv, nc = _candle_sum(tk, s, close_ts - CUT_HOURS * 3600)
+                            pv, nc, px = _candle_sum(tk, s, close_ts - CUT_HOURS * 3600)
                         except Exception:
                             continue
                         g = games.setdefault(ev, {"event": ev, "close": ct, "pregame_volume": 0.0,
-                                                  "total_volume": 0.0, "n_markets": 0, "candles": 0})
+                                                  "total_volume": 0.0, "n_markets": 0, "candles": 0,
+                                                  "sides": {}})
+                        side = tk.rsplit("-", 1)[-1]
+                        g["sides"][side] = {"price": px, "volume": pv}
                         g["pregame_volume"] += pv
                         g["total_volume"] += float(m.get("volume_fp") or 0)
                         g["n_markets"] += 1
@@ -259,12 +262,22 @@ def backfill(days, with_pregame=True):
 
 
 def _candle_sum(ticker, series, cut_ts, hours=10):
-    """赛前累计成交量：cut 之前 hours 小时内的 1 分钟 K 线成交量求和。"""
+    """赛前累计成交量 + 截点时的成交价（唯一 1 分钟跟线的最後一条）。"""
     url = ("%s/series/%s/markets/%s/candlesticks?start_ts=%d&end_ts=%d&period_interval=1"
            % (KALSHI, series, ticker, cut_ts - hours * 3600, cut_ts))
     d = get_json(url)
     cs = d.get("candlesticks") or []
-    return sum(float(c.get("volume_fp") or 0) for c in cs), len(cs)
+    vol = sum(float(c.get("volume_fp") or 0) for c in cs)
+    price = None
+    for c in reversed(cs):
+        pr = (c.get("price") or {}).get("close_dollars")
+        if pr is not None:
+            try:
+                price = float(pr)
+                break
+            except ValueError:
+                continue
+    return vol, len(cs), price
 
 
 def pregame(days):
@@ -295,12 +308,14 @@ def pregame(days):
                         continue
                     cut = close_ts - CUT_HOURS * 3600
                     try:
-                        pv, nc = _candle_sum(tk, s, cut)
+                        pv, nc, px = _candle_sum(tk, s, cut)
                     except Exception as ex:
                         print("  ! %s K线失败 %s" % (tk, type(ex).__name__))
                         continue
                     g = games.setdefault(ev, {"event": ev, "close": ct, "pregame_volume": 0.0,
-                                              "total_volume": 0.0, "n_markets": 0, "candles": 0})
+                                              "total_volume": 0.0, "n_markets": 0, "candles": 0,
+                                              "sides": {}})
+                    g["sides"][tk.rsplit("-", 1)[-1]] = {"price": px, "volume": pv}
                     g["pregame_volume"] += pv
                     g["total_volume"] += float(m.get("volume_fp") or 0)
                     g["n_markets"] += 1
