@@ -1,0 +1,48 @@
+name: volume
+
+# 放在仓库的 .github/workflows/vol.yml
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # 每 30 分钟；GitHub 高峰期可能延迟几分钟
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "回补天数（0 = 只做快照）"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: volume
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Snapshot (open markets)
+        run: python scripts/fetch_volume.py
+
+      - name: Backfill (settled markets)
+        if: ${{ github.event.inputs.days != '' && github.event.inputs.days != '0' }}
+        run: python scripts/fetch_volume.py --backfill --days ${{ github.event.inputs.days }}
+
+      - name: Commit data
+        run: |
+          git config user.name "volume-bot"
+          git config user.email "volume-bot@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "vol $(date -u +%FT%TZ)"
+            git push
+          fi
