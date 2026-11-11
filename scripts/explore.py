@@ -1,47 +1,42 @@
 # -*- coding: utf-8 -*-
-"""在 Actions 里探测两家 API 的真实字段与可用筛选参数"""
+"""探测 Polymarket 如何取到「最近的」NBA 已结算事件"""
 import json
 import urllib.request
 
-UA = {"User-Agent": "nba-explore/1.0", "Accept": "application/json"}
+UA = {"User-Agent": "nba-explore/2.0", "Accept": "application/json"}
+P = "https://gamma-api.polymarket.com"
 
 
 def g(u):
     req = urllib.request.Request(u, headers=UA)
     with urllib.request.urlopen(req, timeout=30) as r:
-        return r.status, r.read()
+        return json.loads(r.read().decode("utf-8"))
 
 
-def show(name, u):
+def dates(name, u):
     try:
-        st, b = g(u)
-        d = json.loads(b.decode("utf-8"))
-        print("\n## %s  status=%s bytes=%d" % (name, st, len(b)))
-        print("URL:", u)
-        if isinstance(d, dict):
-            print("top keys:", list(d.keys())[:14])
-            items = d.get("markets") or d.get("events") or d.get("series") or []
-        else:
-            items = d if isinstance(d, list) else []
-            print("list n=", len(items))
-        if items:
-            it = items[0]
-            print("item keys:", list(it.keys())[:30])
-            vol_keys = [k for k in it.keys() if "vol" in k.lower() or "interest" in k.lower() or "liquid" in k.lower()]
-            print("volume-ish keys:", vol_keys)
-            print("sample:", json.dumps({k: it.get(k) for k in list(it.keys())[:12]}, ensure_ascii=False)[:400])
-            if "series" in name.lower():
-                print("all tickers:", [x.get("ticker") for x in items][:40])
+        d = g(u)
+        if not isinstance(d, list):
+            print("\n##", name, "not list:", type(d).__name__, list(d.keys())[:8] if isinstance(d, dict) else "")
+            return
+        eds = [str(x.get("endDate")) for x in d]
+        print("\n##", name, "n=", len(d))
+        print("   first endDate:", eds[0] if eds else None, "| last:", eds[-1] if eds else None)
+        if d:
+            print("   first title:", str(d[0].get("title"))[:70], "| vol:", d[0].get("volume"),
+                  "| markets:", len(d[0].get("markets") or []))
     except Exception as ex:
-        print("\n## %s FAIL %s %s" % (name, type(ex).__name__, str(ex)[:100]))
+        print("\n##", name, "FAIL", type(ex).__name__, str(ex)[:90])
 
 
-K = "https://api.elections.kalshi.com/trade-api/v2"
-P = "https://gamma-api.polymarket.com"
-
-show("kalshi markets open", K + "/markets?status=open&limit=2")
-show("kalshi markets settled", K + "/markets?status=settled&limit=2")
-show("kalshi markets nba series", K + "/markets?status=settled&limit=2&series_ticker=KXNBAGAME")
-show("kalshi series sports", K + "/series?category=Sports")
-show("poly events tag nba", P + "/events?tag_slug=nba&closed=true&limit=3")
-show("poly markets tag nba", P + "/markets?tag_slug=nba&closed=true&limit=3")
+dates("closed, default order", P + "/events?tag_slug=nba&closed=true&limit=5")
+dates("closed, order=endDate desc", P + "/events?tag_slug=nba&closed=true&limit=5&order=endDate&ascending=false")
+dates("closed, start_date_min", P + "/events?tag_slug=nba&closed=true&limit=5&end_date_min=2026-10-01T00:00:00Z")
+try:
+    t = g(P + "/tags?slug=nba")
+    print("\n## tag nba:", json.dumps(t, ensure_ascii=False)[:200])
+    tid = (t[0] if isinstance(t, list) and t else {}).get("id")
+    if tid:
+        dates("markets by tag_id desc", P + "/markets?tag_id=%s&closed=true&limit=5&order=endDate&ascending=false" % tid)
+except Exception as ex:
+    print("\n## tag nba FAIL", type(ex).__name__, str(ex)[:80])
