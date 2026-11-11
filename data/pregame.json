@@ -1,0 +1,1834 @@
+{
+ "ts": "2026-11-11T12:02:11Z",
+ "meta": {
+  "days": 60,
+  "cut_hours": 3,
+  "games": 228
+ },
+ "games": [
+  {
+   "event": "KXNBAGAME-26NOV01BKNIND",
+   "close": "2026-11-02T00:47:46Z",
+   "pregame_volume": 139520.78999999998,
+   "total_volume": 4930363.16,
+   "n_markets": 2,
+   "candles": 917
+  },
+  {
+   "event": "KXNBAGAME-26NOV01BOSORL",
+   "close": "2026-11-01T23:03:46Z",
+   "pregame_volume": 330434.5399999999,
+   "total_volume": 4703852.15,
+   "n_markets": 2,
+   "candles": 1110
+  },
+  {
+   "event": "KXNBAGAME-26NOV01LACGSW",
+   "close": "2026-11-02T03:57:51Z",
+   "pregame_volume": 776664.2900000003,
+   "total_volume": 7283923.91,
+   "n_markets": 2,
+   "candles": 1125
+  },
+  {
+   "event": "KXNBAGAME-26NOV01TORLAL",
+   "close": "2026-11-02T04:31:51Z",
+   "pregame_volume": 868125.9600000001,
+   "total_volume": 8068174.77,
+   "n_markets": 2,
+   "candles": 1168
+  },
+  {
+   "event": "KXNBAGAME-26NOV02ATLIND",
+   "close": "2026-11-03T03:01:11Z",
+   "pregame_volume": 656097.6999999996,
+   "total_volume": 3653086.76,
+   "n_markets": 2,
+   "candles": 1073
+  },
+  {
+   "event": "KXNBAGAME-26NOV02BKNNYK",
+   "close": "2026-11-03T03:08:00Z",
+   "pregame_volume": 302055.2400000001,
+   "total_volume": 3670571.99,
+   "n_markets": 2,
+   "candles": 1069
+  },
+  {
+   "event": "KXNBAGAME-26NOV02BOSHOU",
+   "close": "2026-11-03T04:01:33Z",
+   "pregame_volume": 611110.2000000004,
+   "total_volume": 4128326.9,
+   "n_markets": 2,
+   "candles": 1101
+  },
+  {
+   "event": "KXNBAGAME-26NOV02CHIPHI",
+   "close": "2026-11-03T03:01:11Z",
+   "pregame_volume": 405462.50000000006,
+   "total_volume": 3139335.7,
+   "n_markets": 2,
+   "candles": 1144
+  },
+  {
+   "event": "KXNBAGAME-26NOV02DETCHA",
+   "close": "2026-11-03T03:04:14Z",
+   "pregame_volume": 424569.7600000002,
+   "total_volume": 1569823.22,
+   "n_markets": 2,
+   "candles": 984
+  },
+  {
+   "event": "KXNBAGAME-26NOV02MIALAL",
+   "close": "2026-11-03T05:33:28Z",
+   "pregame_volume": 277219.5600000001,
+   "total_volume": 7106922.2,
+   "n_markets": 2,
+   "candles": 1132
+  },
+  {
+   "event": "KXNBAGAME-26NOV02MILMIN",
+   "close": "2026-11-03T03:28:30Z",
+   "pregame_volume": 420884.0599999993,
+   "total_volume": 2087575.1800000002,
+   "n_markets": 2,
+   "candles": 942
+  },
+  {
+   "event": "KXNBAGAME-26NOV02NOPMEM",
+   "close": "2026-11-03T03:37:55Z",
+   "pregame_volume": 270998.9,
+   "total_volume": 5064435.83,
+   "n_markets": 2,
+   "candles": 1084
+  },
+  {
+   "event": "KXNBAGAME-26NOV02OKCCLE",
+   "close": "2026-11-03T02:36:02Z",
+   "pregame_volume": 401467.2200000001,
+   "total_volume": 6298619.140000001,
+   "n_markets": 2,
+   "candles": 1145
+  },
+  {
+   "event": "KXNBAGAME-26NOV02PHXGSW",
+   "close": "2026-11-03T05:53:43Z",
+   "pregame_volume": 311977.74,
+   "total_volume": 14305069.799999999,
+   "n_markets": 2,
+   "candles": 1042
+  },
+  {
+   "event": "KXNBAGAME-26NOV02PORDEN",
+   "close": "2026-11-03T04:31:32Z",
+   "pregame_volume": 128504.66000000003,
+   "total_volume": 5107345.01,
+   "n_markets": 2,
+   "candles": 902
+  },
+  {
+   "event": "KXNBAGAME-26NOV02SACDAL",
+   "close": "2026-11-03T03:30:29Z",
+   "pregame_volume": 326506.6599999999,
+   "total_volume": 2085683.35,
+   "n_markets": 2,
+   "candles": 1045
+  },
+  {
+   "event": "KXNBAGAME-26NOV02TORLAC",
+   "close": "2026-11-03T05:57:43Z",
+   "pregame_volume": 205976.21000000002,
+   "total_volume": 8155060.04,
+   "n_markets": 2,
+   "candles": 936
+  },
+  {
+   "event": "KXNBAGAME-26NOV02UTASAS",
+   "close": "2026-11-03T04:03:56Z",
+   "pregame_volume": 134176.30000000005,
+   "total_volume": 1226638.77,
+   "n_markets": 2,
+   "candles": 973
+  },
+  {
+   "event": "KXNBAGAME-26NOV02WASORL",
+   "close": "2026-11-03T02:51:58Z",
+   "pregame_volume": 604221.3700000002,
+   "total_volume": 2997442.53,
+   "n_markets": 2,
+   "candles": 1130
+  },
+  {
+   "event": "KXNBAGAME-26NOV04ATLWAS",
+   "close": "2026-11-05T02:25:44Z",
+   "pregame_volume": 1075876.0999999999,
+   "total_volume": 5683544.25,
+   "n_markets": 2,
+   "candles": 1100
+  },
+  {
+   "event": "KXNBAGAME-26NOV04CHABKN",
+   "close": "2026-11-05T03:19:51Z",
+   "pregame_volume": 236696.62999999995,
+   "total_volume": 4238625.2,
+   "n_markets": 2,
+   "candles": 883
+  },
+  {
+   "event": "KXNBAGAME-26NOV04CHINYK",
+   "close": "2026-11-05T03:03:44Z",
+   "pregame_volume": 388842.2699999998,
+   "total_volume": 1587231.02,
+   "n_markets": 2,
+   "candles": 1046
+  },
+  {
+   "event": "KXNBAGAME-26NOV04CLEOKC",
+   "close": "2026-11-05T03:30:37Z",
+   "pregame_volume": 314836.4399999997,
+   "total_volume": 3521676.14,
+   "n_markets": 2,
+   "candles": 1130
+  },
+  {
+   "event": "KXNBAGAME-26NOV04DALSAS",
+   "close": "2026-11-05T05:27:38Z",
+   "pregame_volume": 935555.7500000006,
+   "total_volume": 13130568.99,
+   "n_markets": 2,
+   "candles": 1108
+  },
+  {
+   "event": "KXNBAGAME-26NOV04INDMEM",
+   "close": "2026-11-05T03:23:50Z",
+   "pregame_volume": 103212.92999999998,
+   "total_volume": 4188981.3499999996,
+   "n_markets": 2,
+   "candles": 934
+  },
+  {
+   "event": "KXNBAGAME-26NOV04LALSAC",
+   "close": "2026-11-05T05:40:34Z",
+   "pregame_volume": 188792.47999999986,
+   "total_volume": 6504562.29,
+   "n_markets": 2,
+   "candles": 1104
+  },
+  {
+   "event": "KXNBAGAME-26NOV04MIALAC",
+   "close": "2026-11-05T06:23:24Z",
+   "pregame_volume": 195235.40000000005,
+   "total_volume": 22959740.93,
+   "n_markets": 2,
+   "candles": 1030
+  },
+  {
+   "event": "KXNBAGAME-26NOV04MILBOS",
+   "close": "2026-11-05T02:53:46Z",
+   "pregame_volume": 931268.6700000004,
+   "total_volume": 5324852.01,
+   "n_markets": 2,
+   "candles": 1125
+  },
+  {
+   "event": "KXNBAGAME-26NOV04MINHOU",
+   "close": "2026-11-05T04:07:46Z",
+   "pregame_volume": 246701.76,
+   "total_volume": 7532494.62,
+   "n_markets": 2,
+   "candles": 1115
+  },
+  {
+   "event": "KXNBAGAME-26NOV04PHIDET",
+   "close": "2026-11-05T02:57:59Z",
+   "pregame_volume": 2672699.7300000004,
+   "total_volume": 16965750.38,
+   "n_markets": 2,
+   "candles": 1197
+  },
+  {
+   "event": "KXNBAGAME-26NOV04PORPHX",
+   "close": "2026-11-05T04:45:44Z",
+   "pregame_volume": 450979.20000000007,
+   "total_volume": 3762993.0700000003,
+   "n_markets": 2,
+   "candles": 1055
+  },
+  {
+   "event": "KXNBAGAME-26NOV04TORDEN",
+   "close": "2026-11-05T04:23:45Z",
+   "pregame_volume": 150231.57000000007,
+   "total_volume": 2721486.0,
+   "n_markets": 2,
+   "candles": 959
+  },
+  {
+   "event": "KXNBAGAME-26NOV04UTANOP",
+   "close": "2026-11-05T04:03:45Z",
+   "pregame_volume": 370311.2299999996,
+   "total_volume": 8065068.11,
+   "n_markets": 2,
+   "candles": 956
+  },
+  {
+   "event": "KXNBAGAME-26NOV05MIAGSW",
+   "close": "2026-11-06T05:37:39Z",
+   "pregame_volume": 1736015.7599999995,
+   "total_volume": 21275356.240000002,
+   "n_markets": 2,
+   "candles": 1200
+  },
+  {
+   "event": "KXNBAGAME-26NOV05ORLPHX",
+   "close": "2026-11-06T04:25:45Z",
+   "pregame_volume": 1525966.4399999997,
+   "total_volume": 6166351.52,
+   "n_markets": 2,
+   "candles": 1197
+  },
+  {
+   "event": "KXNBAGAME-26NOV06BOSCHA",
+   "close": "2026-11-07T02:21:59Z",
+   "pregame_volume": 214027.1299999999,
+   "total_volume": 2138169.54,
+   "n_markets": 2,
+   "candles": 1077
+  },
+  {
+   "event": "KXNBAGAME-26NOV06MINNOP",
+   "close": "2026-11-07T03:45:48Z",
+   "pregame_volume": 173563.49,
+   "total_volume": 6380963.47,
+   "n_markets": 2,
+   "candles": 1078
+  },
+  {
+   "event": "KXNBAGAME-26NOV06OKCMEM",
+   "close": "2026-11-07T03:30:02Z",
+   "pregame_volume": 300497.76000000007,
+   "total_volume": 3855748.0999999996,
+   "n_markets": 2,
+   "candles": 1167
+  },
+  {
+   "event": "KXNBAGAME-26NOV06PHICLE",
+   "close": "2026-11-07T03:13:50Z",
+   "pregame_volume": 1653420.92,
+   "total_volume": 16402855.96,
+   "n_markets": 2,
+   "candles": 1181
+  },
+  {
+   "event": "KXNBAGAME-26NOV06PORLAL",
+   "close": "2026-11-07T06:07:39Z",
+   "pregame_volume": 1050523.96,
+   "total_volume": 25536692.25,
+   "n_markets": 2,
+   "candles": 1183
+  },
+  {
+   "event": "KXNBAGAME-26NOV06SASSAC",
+   "close": "2026-11-07T05:47:46Z",
+   "pregame_volume": 694099.2000000004,
+   "total_volume": 5685342.95,
+   "n_markets": 2,
+   "candles": 1158
+  },
+  {
+   "event": "KXNBAGAME-26NOV06TORMIL",
+   "close": "2026-11-07T03:37:52Z",
+   "pregame_volume": 772158.6100000002,
+   "total_volume": 4851841.59,
+   "n_markets": 2,
+   "candles": 969
+  },
+  {
+   "event": "KXNBAGAME-26NOV06UTADAL",
+   "close": "2026-11-07T03:23:47Z",
+   "pregame_volume": 115845.32999999994,
+   "total_volume": 1918536.32,
+   "n_markets": 2,
+   "candles": 938
+  },
+  {
+   "event": "KXNBAGAME-26NOV06WASATL",
+   "close": "2026-11-07T02:19:58Z",
+   "pregame_volume": 1093791.9499999995,
+   "total_volume": 6200370.04,
+   "n_markets": 2,
+   "candles": 1139
+  },
+  {
+   "event": "KXNBAGAME-26NOV07BKNATL",
+   "close": "2026-11-08T03:13:49Z",
+   "pregame_volume": 252181.27999999974,
+   "total_volume": 7040921.57,
+   "n_markets": 2,
+   "candles": 966
+  },
+  {
+   "event": "KXNBAGAME-26NOV07DENIND",
+   "close": "2026-11-08T00:33:44Z",
+   "pregame_volume": 353506.4299999998,
+   "total_volume": 4934529.63,
+   "n_markets": 2,
+   "candles": 1088
+  },
+  {
+   "event": "KXNBAGAME-26NOV07HOUPHX",
+   "close": "2026-11-08T04:23:43Z",
+   "pregame_volume": 174364.73,
+   "total_volume": 4840040.63,
+   "n_markets": 2,
+   "candles": 953
+  },
+  {
+   "event": "KXNBAGAME-26NOV07NYKCLE",
+   "close": "2026-11-08T03:23:55Z",
+   "pregame_volume": 241153.47000000012,
+   "total_volume": 5022143.4399999995,
+   "n_markets": 2,
+   "candles": 1109
+  },
+  {
+   "event": "KXNBAGAME-26NOV07ORLGSW",
+   "close": "2026-11-08T04:27:39Z",
+   "pregame_volume": 1027413.4199999999,
+   "total_volume": 11105258.48,
+   "n_markets": 2,
+   "candles": 1136
+  },
+  {
+   "event": "KXNBAGAME-26NOV07SASPOR",
+   "close": "2026-11-08T05:35:46Z",
+   "pregame_volume": 364331.57999999996,
+   "total_volume": 5187297.97,
+   "n_markets": 2,
+   "candles": 1120
+  },
+  {
+   "event": "KXNBAGAME-26NOV07WASOKC",
+   "close": "2026-11-08T03:17:42Z",
+   "pregame_volume": 337242.6699999998,
+   "total_volume": 1637705.0,
+   "n_markets": 2,
+   "candles": 1102
+  },
+  {
+   "event": "KXNBAGAME-26NOV08BKNDAL",
+   "close": "2026-11-09T03:07:56Z",
+   "pregame_volume": 92417.41,
+   "total_volume": 1506208.3,
+   "n_markets": 2,
+   "candles": 952
+  },
+  {
+   "event": "KXNBAGAME-26NOV08BOSMIL",
+   "close": "2026-11-09T03:17:49Z",
+   "pregame_volume": 134811.47999999995,
+   "total_volume": 2550187.59,
+   "n_markets": 2,
+   "candles": 1017
+  },
+  {
+   "event": "KXNBAGAME-26NOV08LALDET",
+   "close": "2026-11-09T01:40:12Z",
+   "pregame_volume": 1150307.2799999998,
+   "total_volume": 21132698.75,
+   "n_markets": 2,
+   "candles": 1170
+  },
+  {
+   "event": "KXNBAGAME-26NOV08MIASAC",
+   "close": "2026-11-09T04:31:50Z",
+   "pregame_volume": 330422.44999999984,
+   "total_volume": 6300968.07,
+   "n_markets": 2,
+   "candles": 973
+  },
+  {
+   "event": "KXNBAGAME-26NOV08NOPLAC",
+   "close": "2026-11-09T04:33:37Z",
+   "pregame_volume": 232106.46999999994,
+   "total_volume": 7401918.52,
+   "n_markets": 2,
+   "candles": 951
+  },
+  {
+   "event": "KXNBAGAME-26NOV08PHICHI",
+   "close": "2026-11-08T22:47:37Z",
+   "pregame_volume": 359168.0000000001,
+   "total_volume": 5678574.93,
+   "n_markets": 2,
+   "candles": 1015
+  },
+  {
+   "event": "KXNBAGAME-26NOV08UTAMIN",
+   "close": "2026-11-09T02:35:42Z",
+   "pregame_volume": 193635.43000000005,
+   "total_volume": 4156114.42,
+   "n_markets": 2,
+   "candles": 963
+  },
+  {
+   "event": "KXNBAGAME-26NOV09CLECHA",
+   "close": "2026-11-10T02:20:48Z",
+   "pregame_volume": 202867.85000000006,
+   "total_volume": 8821635.299999999,
+   "n_markets": 2,
+   "candles": 1157
+  },
+  {
+   "event": "KXNBAGAME-26NOV09DENHOU",
+   "close": "2026-11-10T03:51:44Z",
+   "pregame_volume": 614481.0799999998,
+   "total_volume": 5151470.46,
+   "n_markets": 2,
+   "candles": 1189
+  },
+  {
+   "event": "KXNBAGAME-26NOV09INDDAL",
+   "close": "2026-11-10T03:41:46Z",
+   "pregame_volume": 433617.12,
+   "total_volume": 9005477.879999999,
+   "n_markets": 2,
+   "candles": 1084
+  },
+  {
+   "event": "KXNBAGAME-26NOV09LALATL",
+   "close": "2026-11-10T02:23:59Z",
+   "pregame_volume": 1697643.0699999994,
+   "total_volume": 14079407.81,
+   "n_markets": 2,
+   "candles": 1198
+  },
+  {
+   "event": "KXNBAGAME-26NOV09MEMTOR",
+   "close": "2026-11-10T02:53:51Z",
+   "pregame_volume": 235379.81000000006,
+   "total_volume": 3567658.4299999997,
+   "n_markets": 2,
+   "candles": 1063
+  },
+  {
+   "event": "KXNBAGAME-26NOV09NOPGSW",
+   "close": "2026-11-10T05:23:41Z",
+   "pregame_volume": 313293.4700000001,
+   "total_volume": 3700008.2199999997,
+   "n_markets": 2,
+   "candles": 1178
+  },
+  {
+   "event": "KXNBAGAME-26NOV09SASPHX",
+   "close": "2026-11-10T04:21:50Z",
+   "pregame_volume": 221193.27000000002,
+   "total_volume": 2765469.13,
+   "n_markets": 2,
+   "candles": 1166
+  },
+  {
+   "event": "KXNBAGAME-26NOV09WASDET",
+   "close": "2026-11-10T02:43:50Z",
+   "pregame_volume": 428014.01000000007,
+   "total_volume": 2899854.4299999997,
+   "n_markets": 2,
+   "candles": 1151
+  },
+  {
+   "event": "KXNBAGAME-26NOV10BOSPHI",
+   "close": "2026-11-11T03:26:26Z",
+   "pregame_volume": 3196789.66,
+   "total_volume": 20794837.0,
+   "n_markets": 2,
+   "candles": 1200
+  },
+  {
+   "event": "KXNBAGAME-26NOV10LACPHX",
+   "close": "2026-11-11T04:27:40Z",
+   "pregame_volume": 449096.2500000003,
+   "total_volume": 3168248.19,
+   "n_markets": 2,
+   "candles": 1127
+  },
+  {
+   "event": "KXNBAGAME-26NOV10MIAUTA",
+   "close": "2026-11-11T04:45:42Z",
+   "pregame_volume": 1042326.1699999998,
+   "total_volume": 7105473.95,
+   "n_markets": 2,
+   "candles": 1174
+  },
+  {
+   "event": "KXNBAGAME-26NOV10MILNYK",
+   "close": "2026-11-11T02:53:46Z",
+   "pregame_volume": 1003802.3799999997,
+   "total_volume": 6942091.83,
+   "n_markets": 2,
+   "candles": 1200
+  },
+  {
+   "event": "KXNBAGAME-26NOV10OKCPOR",
+   "close": "2026-11-11T06:30:38Z",
+   "pregame_volume": 2258515.87,
+   "total_volume": 21858284.73,
+   "n_markets": 2,
+   "candles": 1190
+  },
+  {
+   "event": "KXNBAGAME-26NOV10ORLSAC",
+   "close": "2026-11-11T05:27:32Z",
+   "pregame_volume": 483425.6499999997,
+   "total_volume": 8371752.77,
+   "n_markets": 2,
+   "candles": 1178
+  },
+  {
+   "event": "KXNBAGAME-26OCT03MIATOR",
+   "close": "2026-10-04T03:29:29Z",
+   "pregame_volume": 680100.3699999999,
+   "total_volume": 1134997.74,
+   "n_markets": 2,
+   "candles": 1073
+  },
+  {
+   "event": "KXNBAGAME-26OCT04GSWLAC",
+   "close": "2026-10-05T03:05:03Z",
+   "pregame_volume": 406648.54,
+   "total_volume": 1566475.6099999999,
+   "n_markets": 2,
+   "candles": 979
+  },
+  {
+   "event": "KXNBAGAME-26OCT04UTADEN",
+   "close": "2026-10-05T03:05:27Z",
+   "pregame_volume": 486479.1299999999,
+   "total_volume": 1333677.5499999998,
+   "n_markets": 2,
+   "candles": 1005
+  },
+  {
+   "event": "KXNBAGAME-26OCT05LALSAC",
+   "close": "2026-10-06T04:47:18Z",
+   "pregame_volume": 92909.4,
+   "total_volume": 2894887.0,
+   "n_markets": 2,
+   "candles": 987
+  },
+  {
+   "event": "KXNBAGAME-26OCT05MEMATL",
+   "close": "2026-10-06T01:57:28Z",
+   "pregame_volume": 35412.69000000002,
+   "total_volume": 805893.8200000001,
+   "n_markets": 2,
+   "candles": 960
+  },
+  {
+   "event": "KXNBAGAME-26OCT05MINMIL",
+   "close": "2026-10-06T03:03:19Z",
+   "pregame_volume": 45706.619999999995,
+   "total_volume": 1115930.49,
+   "n_markets": 2,
+   "candles": 950
+  },
+  {
+   "event": "KXNBAGAME-26OCT05NYKPHI",
+   "close": "2026-10-06T01:57:27Z",
+   "pregame_volume": 244786.03,
+   "total_volume": 1734097.68,
+   "n_markets": 2,
+   "candles": 1045
+  },
+  {
+   "event": "KXNBAGAME-26OCT05PHXDET",
+   "close": "2026-10-06T01:57:27Z",
+   "pregame_volume": 19199.340000000004,
+   "total_volume": 1390421.46,
+   "n_markets": 2,
+   "candles": 784
+  },
+  {
+   "event": "KXNBAGAME-26OCT06BKNCHA",
+   "close": "2026-10-07T01:37:23Z",
+   "pregame_volume": 228814.37000000005,
+   "total_volume": 1435835.5699999998,
+   "n_markets": 2,
+   "candles": 1167
+  },
+  {
+   "event": "KXNBAGAME-26OCT06DENUTA",
+   "close": "2026-10-07T03:35:20Z",
+   "pregame_volume": 51147.81999999999,
+   "total_volume": 1946662.6800000002,
+   "n_markets": 2,
+   "candles": 677
+  },
+  {
+   "event": "KXNBAGAME-26OCT06LALGSW",
+   "close": "2026-10-07T04:31:21Z",
+   "pregame_volume": 275743.70999999996,
+   "total_volume": 1913639.7,
+   "n_markets": 2,
+   "candles": 963
+  },
+  {
+   "event": "KXNBAGAME-26OCT06NOPOKC",
+   "close": "2026-10-07T02:35:23Z",
+   "pregame_volume": 261698.71000000008,
+   "total_volume": 3645573.73,
+   "n_markets": 2,
+   "candles": 1187
+  },
+  {
+   "event": "KXNBAGAME-26OCT07GSWPOR",
+   "close": "2026-10-08T04:30:15Z",
+   "pregame_volume": 106486.87999999998,
+   "total_volume": 3605004.1500000004,
+   "n_markets": 2,
+   "candles": 1137
+  },
+  {
+   "event": "KXNBAGAME-26OCT07MILOKC",
+   "close": "2026-10-08T02:43:25Z",
+   "pregame_volume": 54177.53000000001,
+   "total_volume": 2392813.34,
+   "n_markets": 2,
+   "candles": 1087
+  },
+  {
+   "event": "KXNBAGAME-26OCT07MININD",
+   "close": "2026-10-08T01:21:26Z",
+   "pregame_volume": 112330.2100000001,
+   "total_volume": 2021160.8599999999,
+   "n_markets": 2,
+   "candles": 1074
+  },
+  {
+   "event": "KXNBAGAME-26OCT07ORLMEM",
+   "close": "2026-10-08T02:33:27Z",
+   "pregame_volume": 17146.780000000006,
+   "total_volume": 1407690.77,
+   "n_markets": 2,
+   "candles": 957
+  },
+  {
+   "event": "KXNBAGAME-26OCT07PHXCHI",
+   "close": "2026-10-08T02:47:23Z",
+   "pregame_volume": 61887.629999999976,
+   "total_volume": 1701178.69,
+   "n_markets": 2,
+   "candles": 1096
+  },
+  {
+   "event": "KXNBAGAME-26OCT08ATLSAS",
+   "close": "2026-10-09T02:25:26Z",
+   "pregame_volume": 83135.63999999997,
+   "total_volume": 1534563.55,
+   "n_markets": 2,
+   "candles": 1060
+  },
+  {
+   "event": "KXNBAGAME-26OCT08BOSCLE",
+   "close": "2026-10-09T01:29:32Z",
+   "pregame_volume": 101805.72999999998,
+   "total_volume": 1692566.71,
+   "n_markets": 2,
+   "candles": 1163
+  },
+  {
+   "event": "KXNBAGAME-26OCT08NOPMIA",
+   "close": "2026-10-09T01:53:35Z",
+   "pregame_volume": 18529.82,
+   "total_volume": 840781.2,
+   "n_markets": 2,
+   "candles": 1100
+  },
+  {
+   "event": "KXNBAGAME-26OCT08PHIBKN",
+   "close": "2026-10-09T02:07:25Z",
+   "pregame_volume": 62989.530000000006,
+   "total_volume": 1814076.06,
+   "n_markets": 2,
+   "candles": 1167
+  },
+  {
+   "event": "KXNBAGAME-26OCT08SACLAL",
+   "close": "2026-10-09T05:21:28Z",
+   "pregame_volume": 188173.72000000003,
+   "total_volume": 5654278.86,
+   "n_markets": 2,
+   "candles": 1062
+  },
+  {
+   "event": "KXNBAGAME-26OCT08WASNYK",
+   "close": "2026-10-09T01:57:32Z",
+   "pregame_volume": 87800.78999999998,
+   "total_volume": 1721727.65,
+   "n_markets": 2,
+   "candles": 1189
+  },
+  {
+   "event": "KXNBAGAME-26OCT09HOUDAL",
+   "close": "2026-10-09T14:31:30Z",
+   "pregame_volume": 125421.01000000001,
+   "total_volume": 1040631.3999999999,
+   "n_markets": 2,
+   "candles": 848
+  },
+  {
+   "event": "KXNBAGAME-26OCT09MEMCHI",
+   "close": "2026-10-10T02:39:58Z",
+   "pregame_volume": 133482.5,
+   "total_volume": 3741033.4000000004,
+   "n_markets": 2,
+   "candles": 1165
+  },
+  {
+   "event": "KXNBAGAME-26OCT10ATLIND",
+   "close": "2026-10-11T01:33:43Z",
+   "pregame_volume": 13935.52,
+   "total_volume": 645889.0800000001,
+   "n_markets": 2,
+   "candles": 440
+  },
+  {
+   "event": "KXNBAGAME-26OCT10DETWAS",
+   "close": "2026-10-11T02:05:26Z",
+   "pregame_volume": 31681.060000000005,
+   "total_volume": 961097.46,
+   "n_markets": 2,
+   "candles": 994
+  },
+  {
+   "event": "KXNBAGAME-26OCT10LACTOR",
+   "close": "2026-10-11T01:15:29Z",
+   "pregame_volume": 17111.239999999987,
+   "total_volume": 629282.0700000001,
+   "n_markets": 2,
+   "candles": 551
+  },
+  {
+   "event": "KXNBAGAME-26OCT10MINMIA",
+   "close": "2026-10-11T02:37:24Z",
+   "pregame_volume": 165523.99,
+   "total_volume": 1231700.19,
+   "n_markets": 2,
+   "candles": 663
+  },
+  {
+   "event": "KXNBAGAME-26OCT10PHIBOS",
+   "close": "2026-10-11T02:31:23Z",
+   "pregame_volume": 84829.75000000001,
+   "total_volume": 548246.61,
+   "n_markets": 2,
+   "candles": 949
+  },
+  {
+   "event": "KXNBAGAME-26OCT10SACGSW",
+   "close": "2026-10-11T03:07:23Z",
+   "pregame_volume": 18896.789999999994,
+   "total_volume": 866958.45,
+   "n_markets": 2,
+   "candles": 565
+  },
+  {
+   "event": "KXNBAGAME-26OCT10SASPHX",
+   "close": "2026-10-11T05:05:24Z",
+   "pregame_volume": 51977.93999999999,
+   "total_volume": 2033642.73,
+   "n_markets": 2,
+   "candles": 586
+  },
+  {
+   "event": "KXNBAGAME-26OCT11CHIDEN",
+   "close": "2026-10-12T03:47:20Z",
+   "pregame_volume": 123513.20000000004,
+   "total_volume": 2310687.8200000003,
+   "n_markets": 2,
+   "candles": 720
+  },
+  {
+   "event": "KXNBAGAME-26OCT11DALHOU",
+   "close": "2026-10-11T12:45:25Z",
+   "pregame_volume": 64588.6,
+   "total_volume": 670502.3200000001,
+   "n_markets": 2,
+   "candles": 617
+  },
+  {
+   "event": "KXNBAGAME-26OCT11MILCHA",
+   "close": "2026-10-12T01:17:21Z",
+   "pregame_volume": 16758.690000000006,
+   "total_volume": 930573.5700000001,
+   "n_markets": 2,
+   "candles": 570
+  },
+  {
+   "event": "KXNBAGAME-26OCT11ORLCLE",
+   "close": "2026-10-12T01:03:25Z",
+   "pregame_volume": 30934.480000000007,
+   "total_volume": 1331128.19,
+   "n_markets": 2,
+   "candles": 573
+  },
+  {
+   "event": "KXNBAGAME-26OCT12BKNWAS",
+   "close": "2026-10-13T01:35:21Z",
+   "pregame_volume": 38495.04,
+   "total_volume": 1190421.59,
+   "n_markets": 2,
+   "candles": 609
+  },
+  {
+   "event": "KXNBAGAME-26OCT12LIOPOR",
+   "close": "2026-10-12T22:25:11Z",
+   "pregame_volume": 237292.85000000006,
+   "total_volume": 1112689.24,
+   "n_markets": 2,
+   "candles": 559
+  },
+  {
+   "event": "KXNBAGAME-26OCT12MINNYK",
+   "close": "2026-10-13T02:09:21Z",
+   "pregame_volume": 76475.49,
+   "total_volume": 1272218.07,
+   "n_markets": 2,
+   "candles": 805
+  },
+  {
+   "event": "KXNBAGAME-26OCT12OKCATL",
+   "close": "2026-10-13T01:27:26Z",
+   "pregame_volume": 195661.25,
+   "total_volume": 1851146.03,
+   "n_markets": 2,
+   "candles": 918
+  },
+  {
+   "event": "KXNBAGAME-26OCT12SASUTA",
+   "close": "2026-10-13T03:27:19Z",
+   "pregame_volume": 110224.13999999998,
+   "total_volume": 1570979.22,
+   "n_markets": 2,
+   "candles": 765
+  },
+  {
+   "event": "KXNBAGAME-26OCT13CLEORL",
+   "close": "2026-10-14T01:27:26Z",
+   "pregame_volume": 69691.68999999999,
+   "total_volume": 1706663.2,
+   "n_markets": 2,
+   "candles": 710
+  },
+  {
+   "event": "KXNBAGAME-26OCT13GSWLAL",
+   "close": "2026-10-14T04:25:24Z",
+   "pregame_volume": 319847.20999999996,
+   "total_volume": 5029065.8,
+   "n_markets": 2,
+   "candles": 917
+  },
+  {
+   "event": "KXNBAGAME-26OCT13INDOKC",
+   "close": "2026-10-14T02:41:26Z",
+   "pregame_volume": 161587.17000000004,
+   "total_volume": 3761158.5599999996,
+   "n_markets": 2,
+   "candles": 893
+  },
+  {
+   "event": "KXNBAGAME-26OCT13NYKTOR",
+   "close": "2026-10-14T01:33:27Z",
+   "pregame_volume": 295406.2399999999,
+   "total_volume": 1826712.73,
+   "n_markets": 2,
+   "candles": 989
+  },
+  {
+   "event": "KXNBAGAME-26OCT13PORSAC",
+   "close": "2026-10-14T04:31:27Z",
+   "pregame_volume": 146502.52999999994,
+   "total_volume": 1381745.28,
+   "n_markets": 2,
+   "candles": 876
+  },
+  {
+   "event": "KXNBAGAME-26OCT14BKNMIA",
+   "close": "2026-10-15T02:05:51Z",
+   "pregame_volume": 91601.87000000002,
+   "total_volume": 992366.25,
+   "n_markets": 2,
+   "candles": 835
+  },
+  {
+   "event": "KXNBAGAME-26OCT14CHABOS",
+   "close": "2026-10-15T01:51:25Z",
+   "pregame_volume": 156996.01,
+   "total_volume": 1177346.4,
+   "n_markets": 2,
+   "candles": 908
+  },
+  {
+   "event": "KXNBAGAME-26OCT14CHIMIL",
+   "close": "2026-10-15T02:39:34Z",
+   "pregame_volume": 36342.60000000001,
+   "total_volume": 345645.6,
+   "n_markets": 2,
+   "candles": 629
+  },
+  {
+   "event": "KXNBAGAME-26OCT14DENLAC",
+   "close": "2026-10-15T04:57:21Z",
+   "pregame_volume": 46931.12999999999,
+   "total_volume": 5887502.73,
+   "n_markets": 2,
+   "candles": 600
+  },
+  {
+   "event": "KXNBAGAME-26OCT14DETMIN",
+   "close": "2026-10-15T02:39:34Z",
+   "pregame_volume": 84426.78,
+   "total_volume": 889125.45,
+   "n_markets": 2,
+   "candles": 747
+  },
+  {
+   "event": "KXNBAGAME-26OCT14NOPDAL",
+   "close": "2026-10-15T02:47:21Z",
+   "pregame_volume": 76769.63999999997,
+   "total_volume": 1412209.04,
+   "n_markets": 2,
+   "candles": 725
+  },
+  {
+   "event": "KXNBAGAME-26OCT14PHXSAS",
+   "close": "2026-10-15T02:33:25Z",
+   "pregame_volume": 202421.81999999992,
+   "total_volume": 1269796.91,
+   "n_markets": 2,
+   "candles": 935
+  },
+  {
+   "event": "KXNBAGAME-26OCT15OKCHOU",
+   "close": "2026-10-16T02:41:29Z",
+   "pregame_volume": 126028.79999999987,
+   "total_volume": 1568901.0899999999,
+   "n_markets": 2,
+   "candles": 836
+  },
+  {
+   "event": "KXNBAGAME-26OCT15TORNYK",
+   "close": "2026-10-16T02:15:20Z",
+   "pregame_volume": 183116.59999999995,
+   "total_volume": 2945846.4699999997,
+   "n_markets": 2,
+   "candles": 982
+  },
+  {
+   "event": "KXNBAGAME-26OCT16ATLDAL",
+   "close": "2026-10-17T02:35:27Z",
+   "pregame_volume": 27972.319999999992,
+   "total_volume": 771898.4199999999,
+   "n_markets": 2,
+   "candles": 447
+  },
+  {
+   "event": "KXNBAGAME-26OCT16BOSPHI",
+   "close": "2026-10-17T01:39:47Z",
+   "pregame_volume": 188289.64999999997,
+   "total_volume": 5416226.85,
+   "n_markets": 2,
+   "candles": 956
+  },
+  {
+   "event": "KXNBAGAME-26OCT16CHAMEM",
+   "close": "2026-10-17T02:31:28Z",
+   "pregame_volume": 44474.799999999996,
+   "total_volume": 367756.38,
+   "n_markets": 2,
+   "candles": 512
+  },
+  {
+   "event": "KXNBAGAME-26OCT16DENLAL",
+   "close": "2026-10-17T05:03:21Z",
+   "pregame_volume": 106563.71999999999,
+   "total_volume": 5080652.91,
+   "n_markets": 2,
+   "candles": 686
+  },
+  {
+   "event": "KXNBAGAME-26OCT16MIAORL",
+   "close": "2026-10-17T01:30:22Z",
+   "pregame_volume": 91458.47,
+   "total_volume": 1589846.54,
+   "n_markets": 2,
+   "candles": 713
+  },
+  {
+   "event": "KXNBAGAME-26OCT16MILIND",
+   "close": "2026-10-17T01:39:47Z",
+   "pregame_volume": 17128.27,
+   "total_volume": 2052084.96,
+   "n_markets": 2,
+   "candles": 591
+  },
+  {
+   "event": "KXNBAGAME-26OCT16MINCHI",
+   "close": "2026-10-17T02:37:24Z",
+   "pregame_volume": 112512.01,
+   "total_volume": 1460338.88,
+   "n_markets": 2,
+   "candles": 829
+  },
+  {
+   "event": "KXNBAGAME-26OCT16PORGSW",
+   "close": "2026-10-17T04:35:26Z",
+   "pregame_volume": 56951.03999999998,
+   "total_volume": 2193310.99,
+   "n_markets": 2,
+   "candles": 618
+  },
+  {
+   "event": "KXNBAGAME-26OCT16SACSAS",
+   "close": "2026-10-17T02:29:43Z",
+   "pregame_volume": 188474.9,
+   "total_volume": 825296.5900000001,
+   "n_markets": 2,
+   "candles": 837
+  },
+  {
+   "event": "KXNBAGAME-26OCT16TORDET",
+   "close": "2026-10-17T01:51:23Z",
+   "pregame_volume": 143286.79999999996,
+   "total_volume": 2432884.99,
+   "n_markets": 2,
+   "candles": 840
+  },
+  {
+   "event": "KXNBAGAME-26OCT16UTAPHX",
+   "close": "2026-10-17T04:27:25Z",
+   "pregame_volume": 22909.680000000004,
+   "total_volume": 2039249.84,
+   "n_markets": 2,
+   "candles": 512
+  },
+  {
+   "event": "KXNBAGAME-26OCT16WASNOP",
+   "close": "2026-10-17T02:35:28Z",
+   "pregame_volume": 45936.27,
+   "total_volume": 1137992.76,
+   "n_markets": 2,
+   "candles": 498
+  },
+  {
+   "event": "KXNBAGAME-26OCT20BOSDET",
+   "close": "2026-10-20T21:37:28Z",
+   "pregame_volume": 1056356.14,
+   "total_volume": 19713378.07,
+   "n_markets": 2,
+   "candles": 1106
+  },
+  {
+   "event": "KXNBAGAME-26OCT20OKCSAS",
+   "close": "2026-10-21T04:26:18Z",
+   "pregame_volume": 1642977.2800000003,
+   "total_volume": 25898320.14,
+   "n_markets": 2,
+   "candles": 1188
+  },
+  {
+   "event": "KXNBAGAME-26OCT20PHINYK",
+   "close": "2026-10-21T02:01:16Z",
+   "pregame_volume": 2633741.690000001,
+   "total_volume": 26126035.93,
+   "n_markets": 2,
+   "candles": 1193
+  },
+  {
+   "event": "KXNBAGAME-26OCT21ATLORL",
+   "close": "2026-10-22T01:55:52Z",
+   "pregame_volume": 477506.7899999999,
+   "total_volume": 8770709.25,
+   "n_markets": 2,
+   "candles": 1131
+  },
+  {
+   "event": "KXNBAGAME-26OCT21CHABKN",
+   "close": "2026-10-22T02:15:58Z",
+   "pregame_volume": 552600.1900000002,
+   "total_volume": 3953768.58,
+   "n_markets": 2,
+   "candles": 1004
+  },
+  {
+   "event": "KXNBAGAME-26OCT21CHITOR",
+   "close": "2026-10-22T02:23:51Z",
+   "pregame_volume": 230564.06000000008,
+   "total_volume": 2466803.55,
+   "n_markets": 2,
+   "candles": 1100
+  },
+  {
+   "event": "KXNBAGAME-26OCT21DALHOU",
+   "close": "2026-10-22T03:03:46Z",
+   "pregame_volume": 466881.89,
+   "total_volume": 3403493.1,
+   "n_markets": 2,
+   "candles": 1121
+  },
+  {
+   "event": "KXNBAGAME-26OCT21GSWLAL",
+   "close": "2026-10-22T04:43:36Z",
+   "pregame_volume": 726667.2400000001,
+   "total_volume": 10170572.68,
+   "n_markets": 2,
+   "candles": 1181
+  },
+  {
+   "event": "KXNBAGAME-26OCT21INDNOP",
+   "close": "2026-10-22T02:38:30Z",
+   "pregame_volume": 280648.43000000005,
+   "total_volume": 6340509.33,
+   "n_markets": 2,
+   "candles": 1044
+  },
+  {
+   "event": "KXNBAGAME-26OCT21MILWAS",
+   "close": "2026-10-22T01:43:59Z",
+   "pregame_volume": 408256.9500000002,
+   "total_volume": 4590015.359999999,
+   "n_markets": 2,
+   "candles": 1106
+  },
+  {
+   "event": "KXNBAGAME-26OCT21MINMIA",
+   "close": "2026-10-22T02:20:29Z",
+   "pregame_volume": 1858962.3400000005,
+   "total_volume": 9753511.3,
+   "n_markets": 2,
+   "candles": 1186
+  },
+  {
+   "event": "KXNBAGAME-26OCT21PHXPOR",
+   "close": "2026-10-22T04:30:02Z",
+   "pregame_volume": 164048.76,
+   "total_volume": 3773735.2700000005,
+   "n_markets": 2,
+   "candles": 994
+  },
+  {
+   "event": "KXNBAGAME-26OCT21SACLAC",
+   "close": "2026-10-22T04:59:43Z",
+   "pregame_volume": 182986.03000000003,
+   "total_volume": 5439270.9,
+   "n_markets": 2,
+   "candles": 962
+  },
+  {
+   "event": "KXNBAGAME-26OCT21UTAMEM",
+   "close": "2026-10-22T02:38:30Z",
+   "pregame_volume": 1124586.1599999995,
+   "total_volume": 3144136.0300000003,
+   "n_markets": 2,
+   "candles": 1082
+  },
+  {
+   "event": "KXNBAGAME-26OCT22CLEPHI",
+   "close": "2026-10-23T01:55:52Z",
+   "pregame_volume": 2072867.9700000007,
+   "total_volume": 22372374.37,
+   "n_markets": 2,
+   "candles": 1181
+  },
+  {
+   "event": "KXNBAGAME-26OCT22DENOKC",
+   "close": "2026-10-23T04:20:09Z",
+   "pregame_volume": 718139.4900000002,
+   "total_volume": 17112529.93,
+   "n_markets": 2,
+   "candles": 1192
+  },
+  {
+   "event": "KXNBAGAME-26OCT23ATLCHA",
+   "close": "2026-10-24T01:23:58Z",
+   "pregame_volume": 109113.0,
+   "total_volume": 1307692.65,
+   "n_markets": 2,
+   "candles": 925
+  },
+  {
+   "event": "KXNBAGAME-26OCT23CHIMIL",
+   "close": "2026-10-23T22:45:43Z",
+   "pregame_volume": 727168.4400000002,
+   "total_volume": 10673174.95,
+   "n_markets": 2,
+   "candles": 1055
+  },
+  {
+   "event": "KXNBAGAME-26OCT23DALIND",
+   "close": "2026-10-24T01:48:15Z",
+   "pregame_volume": 113181.61999999997,
+   "total_volume": 4293381.13,
+   "n_markets": 2,
+   "candles": 958
+  },
+  {
+   "event": "KXNBAGAME-26OCT23DETMIA",
+   "close": "2026-10-24T02:40:05Z",
+   "pregame_volume": 468466.6399999999,
+   "total_volume": 4516506.39,
+   "n_markets": 2,
+   "candles": 1017
+  },
+  {
+   "event": "KXNBAGAME-26OCT23HOUSAS",
+   "close": "2026-10-24T04:19:44Z",
+   "pregame_volume": 342141.84999999986,
+   "total_volume": 13660386.49,
+   "n_markets": 2,
+   "candles": 1074
+  },
+  {
+   "event": "KXNBAGAME-26OCT23LACLAL",
+   "close": "2026-10-24T04:33:58Z",
+   "pregame_volume": 210632.45000000007,
+   "total_volume": 4660659.46,
+   "n_markets": 2,
+   "candles": 1026
+  },
+  {
+   "event": "KXNBAGAME-26OCT23MEMGSW",
+   "close": "2026-10-24T04:53:44Z",
+   "pregame_volume": 210284.40000000005,
+   "total_volume": 9103082.629999999,
+   "n_markets": 2,
+   "candles": 975
+  },
+  {
+   "event": "KXNBAGAME-26OCT23MINORL",
+   "close": "2026-10-24T01:35:57Z",
+   "pregame_volume": 1420839.2600000005,
+   "total_volume": 7176715.2,
+   "n_markets": 2,
+   "candles": 1141
+  },
+  {
+   "event": "KXNBAGAME-26OCT23NOPUTA",
+   "close": "2026-10-24T04:07:51Z",
+   "pregame_volume": 177860.62,
+   "total_volume": 4013333.74,
+   "n_markets": 2,
+   "candles": 1002
+  },
+  {
+   "event": "KXNBAGAME-26OCT23NYKBOS",
+   "close": "2026-10-24T01:48:15Z",
+   "pregame_volume": 622687.7400000001,
+   "total_volume": 10936840.48,
+   "n_markets": 2,
+   "candles": 1151
+  },
+  {
+   "event": "KXNBAGAME-26OCT23PORSAC",
+   "close": "2026-10-24T04:33:58Z",
+   "pregame_volume": 473858.12000000017,
+   "total_volume": 5529594.32,
+   "n_markets": 2,
+   "candles": 994
+  },
+  {
+   "event": "KXNBAGAME-26OCT23TORWAS",
+   "close": "2026-10-24T01:40:07Z",
+   "pregame_volume": 393895.93999999994,
+   "total_volume": 4163725.02,
+   "n_markets": 2,
+   "candles": 1142
+  },
+  {
+   "event": "KXNBAGAME-26OCT24BKNCLE",
+   "close": "2026-10-25T02:25:56Z",
+   "pregame_volume": 81712.34999999995,
+   "total_volume": 2083275.1099999999,
+   "n_markets": 2,
+   "candles": 901
+  },
+  {
+   "event": "KXNBAGAME-26OCT24GSWPHX",
+   "close": "2026-10-25T04:33:48Z",
+   "pregame_volume": 259693.4700000001,
+   "total_volume": 7405737.220000001,
+   "n_markets": 2,
+   "candles": 992
+  },
+  {
+   "event": "KXNBAGAME-26OCT24HOUATL",
+   "close": "2026-10-25T03:07:56Z",
+   "pregame_volume": 326478.3200000001,
+   "total_volume": 3322603.8200000003,
+   "n_markets": 2,
+   "candles": 1097
+  },
+  {
+   "event": "KXNBAGAME-26OCT24MIACHA",
+   "close": "2026-10-25T00:40:32Z",
+   "pregame_volume": 986626.0100000002,
+   "total_volume": 10903912.629999999,
+   "n_markets": 2,
+   "candles": 1101
+  },
+  {
+   "event": "KXNBAGAME-26OCT24MILPHI",
+   "close": "2026-10-25T02:03:50Z",
+   "pregame_volume": 239632.15,
+   "total_volume": 3445438.2,
+   "n_markets": 2,
+   "candles": 1071
+  },
+  {
+   "event": "KXNBAGAME-26OCT24NOPDEN",
+   "close": "2026-10-25T03:57:52Z",
+   "pregame_volume": 115909.31999999999,
+   "total_volume": 9174651.93,
+   "n_markets": 2,
+   "candles": 800
+  },
+  {
+   "event": "KXNBAGAME-26OCT24SASDAL",
+   "close": "2026-10-25T02:30:22Z",
+   "pregame_volume": 809391.0300000001,
+   "total_volume": 5311921.03,
+   "n_markets": 2,
+   "candles": 1149
+  },
+  {
+   "event": "KXNBAGAME-26OCT24WASCHI",
+   "close": "2026-10-25T02:45:49Z",
+   "pregame_volume": 286729.26999999996,
+   "total_volume": 3928638.86,
+   "n_markets": 2,
+   "candles": 1084
+  },
+  {
+   "event": "KXNBAGAME-26OCT25DETPHI",
+   "close": "2026-10-26T02:13:42Z",
+   "pregame_volume": 381916.6500000001,
+   "total_volume": 9046744.56,
+   "n_markets": 2,
+   "candles": 1087
+  },
+  {
+   "event": "KXNBAGAME-26OCT25INDBKN",
+   "close": "2026-10-26T00:33:50Z",
+   "pregame_volume": 156186.96000000002,
+   "total_volume": 1839175.95,
+   "n_markets": 2,
+   "candles": 821
+  },
+  {
+   "event": "KXNBAGAME-26OCT25LACOKC",
+   "close": "2026-10-26T01:27:50Z",
+   "pregame_volume": 409902.95,
+   "total_volume": 6949214.399999999,
+   "n_markets": 2,
+   "candles": 1115
+  },
+  {
+   "event": "KXNBAGAME-26OCT25LALUTA",
+   "close": "2026-10-25T23:37:58Z",
+   "pregame_volume": 211916.14999999994,
+   "total_volume": 5498985.01,
+   "n_markets": 2,
+   "candles": 959
+  },
+  {
+   "event": "KXNBAGAME-26OCT25MEMSAC",
+   "close": "2026-10-26T03:31:41Z",
+   "pregame_volume": 561900.02,
+   "total_volume": 9164290.17,
+   "n_markets": 2,
+   "candles": 802
+  },
+  {
+   "event": "KXNBAGAME-26OCT25ORLNYK",
+   "close": "2026-10-26T01:39:49Z",
+   "pregame_volume": 143678.59000000008,
+   "total_volume": 4620559.6,
+   "n_markets": 2,
+   "candles": 907
+  },
+  {
+   "event": "KXNBAGAME-26OCT25TORMIN",
+   "close": "2026-10-26T01:37:37Z",
+   "pregame_volume": 1087496.0200000003,
+   "total_volume": 3681234.34,
+   "n_markets": 2,
+   "candles": 1099
+  },
+  {
+   "event": "KXNBAGAME-26OCT26ATLHOU",
+   "close": "2026-10-27T02:57:45Z",
+   "pregame_volume": 167306.91000000015,
+   "total_volume": 2598581.96,
+   "n_markets": 2,
+   "candles": 1039
+  },
+  {
+   "event": "KXNBAGAME-26OCT26CHIBOS",
+   "close": "2026-10-27T02:00:31Z",
+   "pregame_volume": 208631.21999999994,
+   "total_volume": 1781533.93,
+   "n_markets": 2,
+   "candles": 1044
+  },
+  {
+   "event": "KXNBAGAME-26OCT26DALMIA",
+   "close": "2026-10-27T02:05:54Z",
+   "pregame_volume": 426796.9099999998,
+   "total_volume": 3955386.14,
+   "n_markets": 2,
+   "candles": 1023
+  },
+  {
+   "event": "KXNBAGAME-26OCT26GSWDEN",
+   "close": "2026-10-27T04:31:37Z",
+   "pregame_volume": 195619.5100000003,
+   "total_volume": 15539888.2,
+   "n_markets": 2,
+   "candles": 1004
+  },
+  {
+   "event": "KXNBAGAME-26OCT26INDMIL",
+   "close": "2026-10-27T02:33:46Z",
+   "pregame_volume": 88293.40999999997,
+   "total_volume": 4305049.33,
+   "n_markets": 2,
+   "candles": 893
+  },
+  {
+   "event": "KXNBAGAME-26OCT26MEMUTA",
+   "close": "2026-10-27T03:31:48Z",
+   "pregame_volume": 253869.40999999997,
+   "total_volume": 5445020.67,
+   "n_markets": 2,
+   "candles": 1043
+  },
+  {
+   "event": "KXNBAGAME-26OCT26MINCLE",
+   "close": "2026-10-27T02:02:09Z",
+   "pregame_volume": 3104698.1900000027,
+   "total_volume": 15870304.3,
+   "n_markets": 2,
+   "candles": 1178
+  },
+  {
+   "event": "KXNBAGAME-26OCT26PHXOKC",
+   "close": "2026-10-27T02:30:16Z",
+   "pregame_volume": 471040.29000000015,
+   "total_volume": 2282371.71,
+   "n_markets": 2,
+   "candles": 1068
+  },
+  {
+   "event": "KXNBAGAME-26OCT26WASCHA",
+   "close": "2026-10-27T01:26:00Z",
+   "pregame_volume": 722011.4399999997,
+   "total_volume": 4290600.7,
+   "n_markets": 2,
+   "candles": 1093
+  },
+  {
+   "event": "KXNBAGAME-26OCT27BKNBOS",
+   "close": "2026-10-28T02:30:29Z",
+   "pregame_volume": 846962.4900000003,
+   "total_volume": 13328794.78,
+   "n_markets": 2,
+   "candles": 1179
+  },
+  {
+   "event": "KXNBAGAME-26OCT27DETNYK",
+   "close": "2026-10-28T02:51:49Z",
+   "pregame_volume": 1326514.1499999997,
+   "total_volume": 10249698.350000001,
+   "n_markets": 2,
+   "candles": 1190
+  },
+  {
+   "event": "KXNBAGAME-26OCT27PORLAL",
+   "close": "2026-10-28T05:57:43Z",
+   "pregame_volume": 2411032.37,
+   "total_volume": 24181901.45,
+   "n_markets": 2,
+   "candles": 1193
+  },
+  {
+   "event": "KXNBAGAME-26OCT27SACSAS",
+   "close": "2026-10-28T02:25:50Z",
+   "pregame_volume": 1649935.3700000006,
+   "total_volume": 5938995.47,
+   "n_markets": 2,
+   "candles": 1193
+  },
+  {
+   "event": "KXNBAGAME-26OCT28CHADET",
+   "close": "2026-10-29T01:35:54Z",
+   "pregame_volume": 194369.62999999995,
+   "total_volume": 2676642.19,
+   "n_markets": 2,
+   "candles": 1057
+  },
+  {
+   "event": "KXNBAGAME-26OCT28DENNOP",
+   "close": "2026-10-29T02:20:38Z",
+   "pregame_volume": 59733.859999999986,
+   "total_volume": 1373072.8399999999,
+   "n_markets": 2,
+   "candles": 818
+  },
+  {
+   "event": "KXNBAGAME-26OCT28GSWMIN",
+   "close": "2026-10-29T02:45:51Z",
+   "pregame_volume": 313849.60000000003,
+   "total_volume": 6094858.82,
+   "n_markets": 2,
+   "candles": 1151
+  },
+  {
+   "event": "KXNBAGAME-26OCT28HOUMIL",
+   "close": "2026-10-29T02:25:50Z",
+   "pregame_volume": 193379.4799999999,
+   "total_volume": 857251.1399999999,
+   "n_markets": 2,
+   "candles": 968
+  },
+  {
+   "event": "KXNBAGAME-26OCT28LALLAC",
+   "close": "2026-10-29T05:03:40Z",
+   "pregame_volume": 1009021.0799999996,
+   "total_volume": 12393549.809999999,
+   "n_markets": 2,
+   "candles": 1080
+  },
+  {
+   "event": "KXNBAGAME-26OCT28MIAATL",
+   "close": "2026-10-29T01:22:05Z",
+   "pregame_volume": 877418.45,
+   "total_volume": 6137282.95,
+   "n_markets": 2,
+   "candles": 1164
+  },
+  {
+   "event": "KXNBAGAME-26OCT28NYKCHI",
+   "close": "2026-10-29T02:37:51Z",
+   "pregame_volume": 92979.15000000001,
+   "total_volume": 7600992.66,
+   "n_markets": 2,
+   "candles": 965
+  },
+  {
+   "event": "KXNBAGAME-26OCT28OKCDAL",
+   "close": "2026-10-29T04:05:47Z",
+   "pregame_volume": 333831.75,
+   "total_volume": 11215103.49,
+   "n_markets": 2,
+   "candles": 1099
+  },
+  {
+   "event": "KXNBAGAME-26OCT28ORLTOR",
+   "close": "2026-10-29T02:00:42Z",
+   "pregame_volume": 61527.16000000002,
+   "total_volume": 997539.0,
+   "n_markets": 2,
+   "candles": 850
+  },
+  {
+   "event": "KXNBAGAME-26OCT28PHIIND",
+   "close": "2026-10-29T01:57:48Z",
+   "pregame_volume": 1094549.9200000006,
+   "total_volume": 11061981.02,
+   "n_markets": 2,
+   "candles": 1185
+  },
+  {
+   "event": "KXNBAGAME-26OCT28SASUTA",
+   "close": "2026-10-29T03:37:41Z",
+   "pregame_volume": 139079.54999999993,
+   "total_volume": 9357660.55,
+   "n_markets": 2,
+   "candles": 985
+  },
+  {
+   "event": "KXNBAGAME-26OCT28WASCLE",
+   "close": "2026-10-29T01:27:59Z",
+   "pregame_volume": 237757.61999999982,
+   "total_volume": 3308246.75,
+   "n_markets": 2,
+   "candles": 1068
+  },
+  {
+   "event": "KXNBAGAME-26OCT29CLEATL",
+   "close": "2026-10-30T02:30:00Z",
+   "pregame_volume": 942486.5,
+   "total_volume": 9400100.5,
+   "n_markets": 2,
+   "candles": 1175
+  },
+  {
+   "event": "KXNBAGAME-26OCT29MEMPOR",
+   "close": "2026-10-30T04:19:55Z",
+   "pregame_volume": 475498.30999999994,
+   "total_volume": 13136302.02,
+   "n_markets": 2,
+   "candles": 1191
+  },
+  {
+   "event": "KXNBAGAME-26OCT29SACNOP",
+   "close": "2026-10-30T02:25:48Z",
+   "pregame_volume": 202040.34000000005,
+   "total_volume": 3221475.92,
+   "n_markets": 2,
+   "candles": 1132
+  },
+  {
+   "event": "KXNBAGAME-26OCT30CHAWAS",
+   "close": "2026-10-31T01:35:37Z",
+   "pregame_volume": 1085253.1100000006,
+   "total_volume": 5219033.94,
+   "n_markets": 2,
+   "candles": 1163
+  },
+  {
+   "event": "KXNBAGAME-26OCT30CHIBOS",
+   "close": "2026-10-31T02:10:22Z",
+   "pregame_volume": 591910.9300000002,
+   "total_volume": 3287960.13,
+   "n_markets": 2,
+   "candles": 1162
+  },
+  {
+   "event": "KXNBAGAME-26OCT30DENPHX",
+   "close": "2026-10-31T04:33:46Z",
+   "pregame_volume": 182015.67000000007,
+   "total_volume": 7678506.26,
+   "n_markets": 2,
+   "candles": 1029
+  },
+  {
+   "event": "KXNBAGAME-26OCT30DETBKN",
+   "close": "2026-10-31T01:57:56Z",
+   "pregame_volume": 290839.4099999999,
+   "total_volume": 2222394.02,
+   "n_markets": 2,
+   "candles": 1118
+  },
+  {
+   "event": "KXNBAGAME-26OCT30HOUDAL",
+   "close": "2026-10-31T02:48:01Z",
+   "pregame_volume": 536265.0599999998,
+   "total_volume": 9611012.940000001,
+   "n_markets": 2,
+   "candles": 1118
+  },
+  {
+   "event": "KXNBAGAME-26OCT30INDMIA",
+   "close": "2026-10-31T02:40:22Z",
+   "pregame_volume": 145658.36,
+   "total_volume": 2021472.7800000003,
+   "n_markets": 2,
+   "candles": 1031
+  },
+  {
+   "event": "KXNBAGAME-26OCT30LACMIN",
+   "close": "2026-10-31T02:23:38Z",
+   "pregame_volume": 56629.92000000002,
+   "total_volume": 966269.49,
+   "n_markets": 2,
+   "candles": 952
+  },
+  {
+   "event": "KXNBAGAME-26OCT30LALGSW",
+   "close": "2026-10-31T04:51:46Z",
+   "pregame_volume": 1041590.0600000005,
+   "total_volume": 20779800.060000002,
+   "n_markets": 2,
+   "candles": 1179
+  },
+  {
+   "event": "KXNBAGAME-26OCT30NYKPHI",
+   "close": "2026-10-31T02:07:59Z",
+   "pregame_volume": 1165474.1600000001,
+   "total_volume": 11230938.46,
+   "n_markets": 2,
+   "candles": 1186
+  },
+  {
+   "event": "KXNBAGAME-26OCT30ORLTOR",
+   "close": "2026-10-31T02:10:23Z",
+   "pregame_volume": 85611.29999999999,
+   "total_volume": 2381420.13,
+   "n_markets": 2,
+   "candles": 958
+  },
+  {
+   "event": "KXNBAGAME-26OCT31ATLNOP",
+   "close": "2026-11-01T01:35:58Z",
+   "pregame_volume": 431669.38999999996,
+   "total_volume": 3178291.48,
+   "n_markets": 2,
+   "candles": 933
+  },
+  {
+   "event": "KXNBAGAME-26OCT31CLEMIL",
+   "close": "2026-11-01T02:18:03Z",
+   "pregame_volume": 95944.94999999995,
+   "total_volume": 1552452.43,
+   "n_markets": 2,
+   "candles": 951
+  },
+  {
+   "event": "KXNBAGAME-26OCT31MINSAS",
+   "close": "2026-11-01T02:30:10Z",
+   "pregame_volume": 864579.5400000002,
+   "total_volume": 6937714.93,
+   "n_markets": 2,
+   "candles": 1182
+  },
+  {
+   "event": "KXNBAGAME-26OCT31OKCHOU",
+   "close": "2026-11-01T02:47:58Z",
+   "pregame_volume": 238379.76999999993,
+   "total_volume": 3657137.5300000003,
+   "n_markets": 2,
+   "candles": 1115
+  },
+  {
+   "event": "KXNBAGAME-26OCT31PHICHA",
+   "close": "2026-11-01T00:40:05Z",
+   "pregame_volume": 1662811.2600000002,
+   "total_volume": 13203031.669999998,
+   "n_markets": 2,
+   "candles": 1118
+  },
+  {
+   "event": "KXNBAGAME-26OCT31PORUTA",
+   "close": "2026-10-31T21:27:42Z",
+   "pregame_volume": 157751.12000000002,
+   "total_volume": 2713924.42,
+   "n_markets": 2,
+   "candles": 973
+  },
+  {
+   "event": "KXNBAGAME-26OCT31SACMEM",
+   "close": "2026-11-01T02:35:54Z",
+   "pregame_volume": 457705.52999999997,
+   "total_volume": 2302759.09,
+   "n_markets": 2,
+   "candles": 1107
+  },
+  {
+   "event": "KXNBAGAMESPECIALS-27",
+   "close": "2026-11-06T18:06:20Z",
+   "pregame_volume": 0.0,
+   "total_volume": 15.14,
+   "n_markets": 2,
+   "candles": 0
+  }
+ ]
+}
