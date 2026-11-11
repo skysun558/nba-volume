@@ -39,6 +39,7 @@ MAX_PAGES_PER_SERIES = 6
 MAX_POLY_PAGES = 10
 WINDOW_DAYS = 30
 SERIES_CACHE = os.path.join(OUT_DIR, "kalshi_nba_series.json")
+SERIES_CACHE_V = 2
 VS_RE = re.compile(r"\bvs\.?\b", re.I)
 
 
@@ -76,7 +77,7 @@ def nba_series(force=False):
         try:
             with open(SERIES_CACHE, encoding="utf-8") as f:
                 d = json.load(f)
-            if d.get("tickers"):
+            if d.get("v") == SERIES_CACHE_V and d.get("tickers"):
                 return d["tickers"]
         except Exception:
             pass
@@ -85,7 +86,7 @@ def nba_series(force=False):
                       if str(s.get("ticker", "")).startswith(GAME_SERIES_PREFIX)})
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(SERIES_CACHE, "w", encoding="utf-8") as f:
-        json.dump({"tickers": tickers}, f, ensure_ascii=False, indent=1)
+        json.dump({"v": SERIES_CACHE_V, "tickers": tickers}, f, ensure_ascii=False, indent=1)
     return tickers
 
 
@@ -123,6 +124,7 @@ def snapshot():
             print("  ! %s 快照失败 %s" % (s, type(ex).__name__))
             continue
         items.extend(norm_kalshi(m) for m in (d.get("markets") or []))
+    items = [r for r in items if is_game_market(r)]
     poly = []
     try:
         evs = get_json(POLY + "/events?" + urllib.parse.urlencode(
@@ -168,7 +170,7 @@ def backfill(days):
                     print("  ! %s %s 拉取失败 %s" % (s, a.date(), type(ex).__name__))
                     break
                 batch = d.get("markets") or []
-                items.extend(norm_kalshi(m, settled=True) for m in batch)
+                items.extend(norm_kalshi(m, settled=True) for m in batch if is_game_market({"src": "kalshi", "id": m.get("ticker")}))
                 pages += 1
                 cursor = d.get("cursor") or ""
                 if not cursor or not batch:
