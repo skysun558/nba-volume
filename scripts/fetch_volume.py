@@ -154,9 +154,10 @@ def _windows(days):
     return out
 
 
-def backfill(days):
+def backfill(days, with_pregame=True):
     series = nba_series()
     items, truncated = [], False
+    games = {}
     for s in series:
         for a, b in _windows(days):
             cursor, pages = "", 0
@@ -172,6 +173,26 @@ def backfill(days):
                     break
                 batch = d.get("markets") or []
                 items.extend(norm_kalshi(m, settled=True) for m in batch if is_game_market({"src": "kalshi", "id": m.get("ticker")}))
+                if with_pregame:
+                    for m in batch:
+                        tk, ev, ct = m.get("ticker"), m.get("event_ticker"), m.get("close_time")
+                        if not (tk and ev and ct) or not is_game_market({"src": "kalshi", "id": tk}):
+                            continue
+                        try:
+                            close_ts = int(datetime.fromisoformat(ct.replace("Z", "+00:00")).timestamp())
+                        except ValueError:
+                            continue
+                        try:
+                            pv, nc = _candle_sum(tk, s, close_ts - CUT_HOURS * 3600)
+                        except Exception:
+                            continue
+                        g = games.setdefault(ev, {"event": ev, "close": ct, "pregame_volume": 0.0,
+                                                  "total_volume": 0.0, "n_markets": 0, "candles": 0})
+                        g["pregame_volume"] += pv
+                        g["total_volume"] += float(m.get("volume_fp") or 0)
+                        g["n_markets"] += 1
+                        g["candles"] += nc
+                        time.sleep(0.03)
                 pages += 1
                 cursor = d.get("cursor") or ""
                 if not cursor or not batch:
@@ -224,6 +245,14 @@ def backfill(days):
                    "meta": meta, "markets": out}, f, ensure_ascii=False, indent=1)
     print("[backfill] %d 天 | %d 个比赛级系列 | Kalshi %d | Polymarket %d | 新增 %d | 清理非比赛盘 %d | 合计 %d | 截断=%s"
           % (days, len(series), len(items), len(poly), added, dropped, len(out), truncated))
+    if with_pregame:
+        gl = sorted(games.values(), key=lambda x: x["event"])
+        os.makedirs(OUT_DIR, exist_ok=True)
+        with open(os.path.join(OUT_DIR, "pregame.json"), "w", encoding="utf-8") as f:
+            json.dump({"ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                       "meta": {"days": days, "cut_hours": CUT_HOURS, "games": len(gl)},
+                       "games": gl}, f, ensure_ascii=False, indent=1)
+        print("[pregame] %d 场 | 口径 close-%dh" % (len(gl), CUT_HOURS))
     for label, arr in (("kalshi", items), ("poly", poly)):
         if arr:
             print("%s sample:" % label, json.dumps(arr[0], ensure_ascii=False)[:280])
