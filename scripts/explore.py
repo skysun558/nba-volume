@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
-"""探测 Kalshi 分时成交（candlesticks）与 Polymarket 成交明细"""
+"""验证 1 分钟 K 线能否还原「开赛前」累计成交量"""
 import json
-import time
 import urllib.request
+from datetime import datetime, timezone
 
-UA = {"User-Agent": "nba-explore/3.0", "Accept": "application/json"}
+UA = {"User-Agent": "nba-explore/4.0", "Accept": "application/json"}
 K = "https://api.elections.kalshi.com/trade-api/v2"
-TICKER = "KXNBAGAME-26OCT11CHIDEN-DEN"
-SERIES = "KXNBAGAME"
+TICKERS = [
+    "KXNBAGAME-26OCT11CHIDEN-DEN",
+    "KXNBAGAME-26NOV10LACPHX-PHX",
+]
 
 
 def g(u):
@@ -16,34 +18,23 @@ def g(u):
         return json.loads(r.read().decode("utf-8"))
 
 
-def probe(name, u, keys=("candlesticks", "trades", "history")):
+for tk in TICKERS:
     try:
-        d = g(u)
-        print("\n## %s OK" % name)
-        print("URL:", u[:150])
-        if isinstance(d, dict):
-            print("top keys:", list(d.keys())[:10])
-            for k in keys:
-                if isinstance(d.get(k), list) and d[k]:
-                    arr = d[k]
-                    print("%s n=%d first=" % (k, len(arr)), json.dumps(arr[0], ensure_ascii=False)[:300])
-                    print("last=", json.dumps(arr[-1], ensure_ascii=False)[:300])
-                    break
-        elif isinstance(d, list):
-            print("list n=%d first=" % len(d), json.dumps(d[0], ensure_ascii=False)[:300] if d else "")
+        m = g(K + "/markets/" + tk).get("market") or {}
+        occ = m.get("occurrence_datetime") or m.get("open_time")
+        print("\n## %s occurrence=%s close=%s vol=%s" % (tk, occ, m.get("close_time"), m.get("volume_fp")))
+        if not occ:
+            continue
+        t0 = int(datetime.fromisoformat(occ.replace("Z", "+00:00")).timestamp())
+        d = g("%s/series/KXNBAGAME/markets/%s/candlesticks?start_ts=%d&end_ts=%d&period_interval=1"
+              % (K, tk, t0 - 12 * 3600, t0))
+        cs = d.get("candlesticks") or []
+        tot = sum(float(c.get("volume_fp") or 0) for c in cs)
+        last = cs[-1] if cs else {}
+        print("##   1m candles n=%d  pregame_sum=%.2f  last_ts=%s last_vol=%s"
+              % (len(cs), tot,
+                 datetime.fromtimestamp(last.get("end_period_ts", 0), timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+                 if last else "-", last.get("volume_fp")))
+        print("##   first3:", json.dumps(cs[:3], ensure_ascii=False)[:260])
     except Exception as ex:
-        print("\n## %s FAIL %s %s" % (name, type(ex).__name__, str(ex)[:110]))
-
-
-now = int(time.time())
-week = now - 7 * 86400
-month = now - 30 * 86400
-
-probe("kalshi candles 1h 30d",
-      "%s/series/%s/markets/%s/candlesticks?start_ts=%d&end_ts=%d&period_interval=60"
-      % (K, SERIES, TICKER, month, now))
-probe("kalshi candles 1d 60d",
-      "%s/series/%s/markets/%s/candlesticks?start_ts=%d&end_ts=%d&period_interval=1440"
-      % (K, SERIES, TICKER, month - 30 * 86400, now))
-probe("kalshi trades", "%s/markets/trades?ticker=%s&limit=5" % (K, TICKER))
-probe("poly data trades", "https://data-api.polymarket.com/trades?market=1356597&limit=3")
+        print("\n## %s FAIL %s %s" % (tk, type(ex).__name__, str(ex)[:110]))
