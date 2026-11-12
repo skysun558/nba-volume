@@ -1,9 +1,9 @@
 {
- "ts": "2026-11-11T12:26:14Z",
+ "ts": "2026-11-12T09:16:14Z",
  "meta": {
   "days": 60,
   "cut_hours": 3,
-  "games": 228
+  "games": 238
  },
  "games": [
   {
@@ -1299,6 +1299,186 @@
     "ORL": {
      "price": 0.66,
      "volume": 56975.459999999985
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11BKNNOP",
+   "close": "2026-11-12T03:39:55Z",
+   "pregame_volume": 386133.79000000015,
+   "total_volume": 1705123.3,
+   "n_markets": 2,
+   "candles": 988,
+   "sides": {
+    "NOP": {
+     "price": 0.57,
+     "volume": 293016.69
+    },
+    "BKN": {
+     "price": 0.44,
+     "volume": 93117.10000000018
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11BOSTOR",
+   "close": "2026-11-12T02:40:28Z",
+   "pregame_volume": 898873.5400000004,
+   "total_volume": 14322208.91,
+   "n_markets": 2,
+   "candles": 1155,
+   "sides": {
+    "TOR": {
+     "price": 0.34,
+     "volume": 184656.13999999998
+    },
+    "BOS": {
+     "price": 0.66,
+     "volume": 714217.4000000004
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11CLENYK",
+   "close": "2026-11-12T02:40:29Z",
+   "pregame_volume": 702593.6400000002,
+   "total_volume": 9209198.78,
+   "n_markets": 2,
+   "candles": 1159,
+   "sides": {
+    "NYK": {
+     "price": 0.66,
+     "volume": 266619.4899999999
+    },
+    "CLE": {
+     "price": 0.35,
+     "volume": 435974.1500000004
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11DENMEM",
+   "close": "2026-11-12T03:30:17Z",
+   "pregame_volume": 187134.35999999993,
+   "total_volume": 5892625.6899999995,
+   "n_markets": 2,
+   "candles": 1083,
+   "sides": {
+    "MEM": {
+     "price": 0.41,
+     "volume": 55778.43000000003
+    },
+    "DEN": {
+     "price": 0.6,
+     "volume": 131355.9299999999
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11GSWHOU",
+   "close": "2026-11-12T05:10:05Z",
+   "pregame_volume": 1743334.3100000003,
+   "total_volume": 17478313.38,
+   "n_markets": 2,
+   "candles": 1199,
+   "sides": {
+    "HOU": {
+     "price": 0.69,
+     "volume": 144244.00999999983
+    },
+    "GSW": {
+     "price": 0.32,
+     "volume": 1599090.3000000005
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11LALMIL",
+   "close": "2026-11-12T03:33:44Z",
+   "pregame_volume": 1664558.5699999994,
+   "total_volume": 5026965.36,
+   "n_markets": 2,
+   "candles": 1177,
+   "sides": {
+    "MIL": {
+     "price": 0.11,
+     "volume": 189315.3299999999
+    },
+    "LAL": {
+     "price": 0.89,
+     "volume": 1475243.2399999995
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11OKCPOR",
+   "close": "2026-11-12T05:31:41Z",
+   "pregame_volume": 895643.8500000001,
+   "total_volume": 21943545.27,
+   "n_markets": 2,
+   "candles": 1168,
+   "sides": {
+    "POR": {
+     "price": 0.58,
+     "volume": 498709.03999999963
+    },
+    "OKC": {
+     "price": 0.43,
+     "volume": 396934.81000000046
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11ORLUTA",
+   "close": "2026-11-12T04:31:43Z",
+   "pregame_volume": 198089.77999999982,
+   "total_volume": 5627899.1,
+   "n_markets": 2,
+   "candles": 1057,
+   "sides": {
+    "UTA": {
+     "price": 0.38,
+     "volume": 46404.49000000002
+    },
+    "ORL": {
+     "price": 0.63,
+     "volume": 151685.2899999998
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11SASCHI",
+   "close": "2026-11-12T03:20:35Z",
+   "pregame_volume": 215689.49999999994,
+   "total_volume": 7600326.78,
+   "n_markets": 2,
+   "candles": 1112,
+   "sides": {
+    "SAS": {
+     "price": 0.91,
+     "volume": 124073.85999999991
+    },
+    "CHI": {
+     "price": 0.1,
+     "volume": 91615.64000000001
+    }
+   }
+  },
+  {
+   "event": "KXNBAGAME-26NOV11WASIND",
+   "close": "2026-11-12T02:21:49Z",
+   "pregame_volume": 332701.1899999999,
+   "total_volume": 4162786.35,
+   "n_markets": 2,
+   "candles": 1078,
+   "sides": {
+    "WAS": {
+     "price": 0.43,
+     "volume": 259484.03999999983
+    },
+    "IND": {
+     "price": 0.58,
+     "volume": 73217.15000000005
     }
    }
   },
